@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.platformer",
-    "projectFile": "/home/rafael/Área de Trabalho/PORJETOR/My project/platformer.json",
+    "projectFile": "/home/doaryo/projetos/bloodVille/platformer.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -585,6 +585,42 @@
         "name": "undercontrol.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/City3_edit2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/City3_edit2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/lucs.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/lucs.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/eu.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/eu.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/City3_edit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/City3_edit.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -716,7 +752,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "../../../../media/guest-toeigi/LUCAS/backgroud edit/City3_edit2.png",
+                      "image": "imgs/City3_edit2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1584,9 +1620,62 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 601,
+          "layer": "",
+          "locked": false,
+          "name": "Backgroud",
+          "width": 802,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
+        {
+          "name": "Backgroud",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imgs/City3_edit.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "BackButton",
           "type": "Sprite",
@@ -1734,7 +1823,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "lucs.jpg",
+                      "image": "imgs/lucs.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1922,7 +2011,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "eu.jpg",
+                      "image": "imgs/eu.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
