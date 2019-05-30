@@ -630,6 +630,33 @@
         "name": "imgs/Controles.jpg",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/BackButton-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/BackButton-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/cois.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/cois.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/layerNameOne-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/layerNameOne-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1159,21 +1186,6 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": true,
-          "height": 37,
-          "layer": "",
-          "locked": false,
-          "name": "BackButton",
-          "width": 176,
-          "x": 103,
-          "y": 564,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -1198,6 +1210,21 @@
           "x": -46,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 37,
+          "layer": "",
+          "locked": false,
+          "name": "BackButton",
+          "width": 176,
+          "x": 103,
+          "y": 564,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1239,7 +1266,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "BackButton-1.png",
+                      "image": "imgs/BackButton-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1717,7 +1744,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "BackButton-1.png",
+                      "image": "imgs/BackButton-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1791,7 +1818,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "layerNameOne-1.png",
+                      "image": "imgs/layerNameOne-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1885,7 +1912,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "layerNameOne-1.png",
+                      "image": "imgs/layerNameOne-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1941,7 +1968,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "layerNameOne-1.png",
+                      "image": "imgs/layerNameOne-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1997,7 +2024,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "cois.jpg",
+                      "image": "imgs/cois.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",

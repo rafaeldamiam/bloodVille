@@ -621,6 +621,42 @@
         "name": "imgs/City3_edit.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/Controles.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/Controles.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/BackButton-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/BackButton-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/cois.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/cois.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/layerNameOne-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/layerNameOne-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1143,26 +1179,11 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.688
+        "zoomFactor": 0.946
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 37,
-          "layer": "",
-          "locked": false,
-          "name": "BackButton",
-          "width": 176,
-          "x": 103,
-          "y": 564,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -1174,6 +1195,36 @@
           "x": 69,
           "y": 555,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 600,
+          "layer": "",
+          "locked": false,
+          "name": "Image",
+          "width": 892,
+          "x": -46,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 37,
+          "layer": "",
+          "locked": false,
+          "name": "BackButton",
+          "width": 176,
+          "x": 103,
+          "y": 564,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1215,7 +1266,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "BackButton-1.png",
+                      "image": "imgs/BackButton-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1253,7 +1304,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "undercontrol.png",
+                      "image": "imgs/Controles.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1693,7 +1744,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "BackButton-1.png",
+                      "image": "imgs/BackButton-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1745,9 +1796,9 @@
           "font": "",
           "characterSize": 35,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -1767,7 +1818,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "layerNameOne-1.png",
+                      "image": "imgs/layerNameOne-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1861,7 +1912,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "layerNameOne-1.png",
+                      "image": "imgs/layerNameOne-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1917,7 +1968,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "layerNameOne-1.png",
+                      "image": "imgs/layerNameOne-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1973,7 +2024,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "cois.jpg",
+                      "image": "imgs/cois.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2294,6 +2345,67 @@
             "g": 255,
             "r": 255
           }
+        }
+      ],
+      "events": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "MenuPause",
+      "name": "MenuPause",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [
+        {
+          "name": "NewObject",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "events": [],
