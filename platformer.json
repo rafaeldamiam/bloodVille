@@ -666,6 +666,42 @@
         "name": "imgs/JOGAR.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/cyborg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/cyborg.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/pause.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/pause.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/pause-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/pause-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/pause-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/pause-1-0.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -698,7 +734,7 @@
         "gridWidth": 70,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.6026
+        "zoomFactor": 0.6746
       },
       "objectsGroups": [],
       "variables": [],
@@ -712,7 +748,7 @@
           "name": "Back",
           "width": 802,
           "x": -1,
-          "y": -2,
+          "y": -1,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -726,8 +762,8 @@
           "locked": false,
           "name": "TextJogar",
           "width": 0,
-          "x": 52,
-          "y": 321,
+          "x": 55,
+          "y": 325,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -756,8 +792,8 @@
           "locked": false,
           "name": "TextAbout",
           "width": 0,
-          "x": 52,
-          "y": 455,
+          "x": 47,
+          "y": 442,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -766,14 +802,29 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 480,
+          "height": 229,
           "layer": "",
           "locked": false,
           "name": "Cyborg",
-          "width": 266,
-          "x": 268,
-          "y": 86,
+          "width": 123,
+          "x": 332,
+          "y": 322,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TextQuit",
+          "width": 0,
+          "x": 55,
+          "y": 490,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -835,7 +886,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "cyborg.png",
+                      "image": "imgs/cyborg.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -867,11 +918,11 @@
           "behaviors": [],
           "string": "Jogar",
           "font": "",
-          "characterSize": 50,
+          "characterSize": 45,
           "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
+            "b": 241,
+            "g": 241,
+            "r": 246
           }
         },
         {
@@ -885,11 +936,11 @@
           "behaviors": [],
           "string": "Controles",
           "font": "",
-          "characterSize": 35,
+          "characterSize": 30,
           "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
+            "b": 241,
+            "g": 241,
+            "r": 246
           }
         },
         {
@@ -905,9 +956,27 @@
           "font": "",
           "characterSize": 30,
           "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
+            "b": 241,
+            "g": 241,
+            "r": 246
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "TextQuit",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Sair",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 241,
+            "g": 241,
+            "r": 246
           }
         }
       ],
@@ -949,7 +1018,7 @@
               "parameters": [
                 "TextJogar",
                 "=",
-                "(SceneWindowHeight()/1.75)"
+                "(SceneWindowHeight()/1.76)"
               ],
               "subInstructions": []
             },
@@ -973,7 +1042,7 @@
               "parameters": [
                 "TextControl",
                 "=",
-                "(SceneWindowHeight()/1.45)"
+                "(SceneWindowHeight()/1.52)"
               ],
               "subInstructions": []
             },
@@ -997,7 +1066,31 @@
               "parameters": [
                 "TextAbout",
                 "=",
-                "(SceneWindowHeight()/1.3)"
+                "(SceneWindowHeight()/1.40)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TextQuit",
+                "=",
+                "(SceneWindowWidth()/14)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "TextQuit",
+                "=",
+                "(SceneWindowHeight()/1.30)"
               ],
               "subInstructions": []
             }
@@ -1135,6 +1228,50 @@
               "parameters": [
                 "",
                 "\"About\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TextQuit",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Quit"
+              },
+              "parameters": [
                 ""
               ],
               "subInstructions": []
@@ -2262,7 +2399,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.472
+        "zoomFactor": 0.928
       },
       "objectsGroups": [],
       "variables": [],
@@ -2275,8 +2412,8 @@
           "locked": false,
           "name": "nhec",
           "width": 0,
-          "x": 259,
-          "y": 264,
+          "x": 262,
+          "y": 269,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2290,8 +2427,8 @@
           "locked": false,
           "name": "nhecteext",
           "width": 0,
-          "x": 328,
-          "y": 285,
+          "x": 325,
+          "y": 290,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -2300,14 +2437,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 603,
+          "height": 59,
           "layer": "",
           "locked": false,
-          "name": "BackGround",
-          "width": 799,
+          "name": "Pause",
+          "width": 61,
           "x": 0,
-          "y": 0,
-          "zOrder": 0,
+          "y": 1,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2371,14 +2508,14 @@
           }
         },
         {
-          "name": "BackGround",
+          "name": "Pause",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "pause",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2387,7 +2524,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs/JOGAR.jpg",
+                      "image": "imgs/pause-1-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2409,7 +2546,54 @@
           ]
         }
       ],
-      "events": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Pause",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"PauseMenu\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
       "layers": [
         {
           "name": "",
@@ -2434,8 +2618,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "MenuPause",
-      "name": "MenuPause",
+      "mangledName": "PauseMenu",
+      "name": "PauseMenu",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -2455,11 +2639,26 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1
+        "zoomFactor": 0.664
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TextButton_Continue",
+          "width": 0,
+          "x": 319,
+          "y": 244,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
         {
           "angle": 0,
           "customSize": true,
@@ -2481,11 +2680,11 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "BackButton_C",
+          "name": "TextButton_Menu",
           "width": 0,
-          "x": 409,
-          "y": 279,
-          "zOrder": 1,
+          "x": 254,
+          "y": 309,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2496,11 +2695,11 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "TextButton_C",
+          "name": "TextButton_Quit",
           "width": 0,
-          "x": 365,
-          "y": 266,
-          "zOrder": 2,
+          "x": 352,
+          "y": 382,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2546,47 +2745,9 @@
           ]
         },
         {
-          "name": "BackButton_C",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "imgs/BackButton-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 128,
-                        "y": 37
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "bold": false,
+          "bold": true,
           "italic": false,
-          "name": "TextButton_C",
+          "name": "TextButton_Continue",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
@@ -2594,15 +2755,242 @@
           "behaviors": [],
           "string": "Continuar",
           "font": "",
-          "characterSize": 20,
+          "characterSize": 30,
           "color": {
             "b": 255,
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "TextButton_Menu",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Retornar ao Menu",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "TextButton_Quit",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Sair",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "Volume",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
-      "events": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "TextButton_Continue",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TextButton_Continue",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TextButton_Menu",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TextButton_Quit",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Volume",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
       "layers": [
         {
           "name": "",
