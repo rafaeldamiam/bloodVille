@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.platformer",
-    "projectFile": "/home/doaryo/projetos/bloodVille/platformer.json",
+    "projectFile": "C:\\xampp\\htdocs\\Projetos\\bloodVille\\platformer.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -833,6 +833,7 @@
       "objects": [
         {
           "name": "Back",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -871,6 +872,7 @@
         },
         {
           "name": "Cyborg",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -912,6 +914,7 @@
           "italic": false,
           "name": "TextJogar",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -930,6 +933,7 @@
           "italic": false,
           "name": "TextControl",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -948,6 +952,7 @@
           "italic": false,
           "name": "TextAbout",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -966,6 +971,7 @@
           "italic": false,
           "name": "TextQuit",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -1382,6 +1388,7 @@
           "italic": false,
           "name": "BackText",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -1397,6 +1404,7 @@
         },
         {
           "name": "BackButton",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1435,6 +1443,7 @@
         },
         {
           "name": "Image",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1837,6 +1846,7 @@
       "objects": [
         {
           "name": "Backgroud",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1875,6 +1885,7 @@
         },
         {
           "name": "BackButton",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1916,6 +1927,7 @@
           "italic": false,
           "name": "BackText",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -1934,6 +1946,7 @@
           "italic": false,
           "name": "Tittle",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -1949,6 +1962,7 @@
         },
         {
           "name": "DevOneButton",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1990,6 +2004,7 @@
           "italic": false,
           "name": "DevOneText",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2005,6 +2020,7 @@
         },
         {
           "name": "DevOneImage",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2043,6 +2059,7 @@
         },
         {
           "name": "DevTwoButton",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2084,6 +2101,7 @@
           "italic": false,
           "name": "DevTwoText",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2099,6 +2117,7 @@
         },
         {
           "name": "DevThreeButton",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2140,6 +2159,7 @@
           "italic": false,
           "name": "DevThreeText",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2155,6 +2175,7 @@
         },
         {
           "name": "DevTwoImage",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2193,6 +2214,7 @@
         },
         {
           "name": "DevThreeImage",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2453,6 +2475,7 @@
       "objects": [
         {
           "name": "nhec",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2494,6 +2517,7 @@
           "italic": false,
           "name": "nhecteext",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2509,6 +2533,7 @@
         },
         {
           "name": "Pause",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2708,6 +2733,7 @@
       "objects": [
         {
           "name": "Background",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2749,6 +2775,7 @@
           "italic": false,
           "name": "TextButton_Continue",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2767,6 +2794,7 @@
           "italic": false,
           "name": "TextButton_Menu",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2785,6 +2813,7 @@
           "italic": false,
           "name": "TextButton_Quit",
           "smoothed": true,
+          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2800,6 +2829,7 @@
         },
         {
           "name": "Volume",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
