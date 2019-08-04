@@ -20,10 +20,10 @@
     "version": "1.0.0",
     "winExecutableFilename": "",
     "winExecutableIconFile": "",
-    "name": "Platformer",
+    "name": "bloodville",
     "author": "",
-    "windowWidth": 800,
-    "windowHeight": 600,
+    "windowWidth": 1280,
+    "windowHeight": 720,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -837,6 +837,166 @@
         "name": "imgs\\pause-1-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/pause.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\pause.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/move_right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\move_right.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/move_left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\move_left.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/BackButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\BackButton.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/layerName.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\layerName.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "samples/coin.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "samples\\coin.wav",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/coin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\coin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/coin2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\coin2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/coin3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\coin3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/NewObject2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\NewObject2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/NewObject2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\NewObject2-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/NewObject2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\NewObject2-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/NewObject2-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\NewObject2-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/NewObject2-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\NewObject2-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/coin4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\coin4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/dev_lucas.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\dev_lucas.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/dev_pedro.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\dev_pedro.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/dev_rafael.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs\\dev_rafael.jpg",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -869,7 +1029,7 @@
         "gridWidth": 70,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.6746
+        "zoomFactor": 0.5066
       },
       "objectsGroups": [],
       "variables": [],
@@ -877,13 +1037,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 601,
+          "height": 720,
           "layer": "",
           "locked": false,
           "name": "Back",
-          "width": 802,
-          "x": -1,
-          "y": -1,
+          "width": 1340,
+          "x": 0,
+          "y": 0,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -897,8 +1057,8 @@
           "locked": false,
           "name": "TextJogar",
           "width": 0,
-          "x": 55,
-          "y": 325,
+          "x": 94,
+          "y": 507,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -912,8 +1072,8 @@
           "locked": false,
           "name": "TextControl",
           "width": 0,
-          "x": 49,
-          "y": 394,
+          "x": 88,
+          "y": 576,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -927,8 +1087,8 @@
           "locked": false,
           "name": "TextAbout",
           "width": 0,
-          "x": 47,
-          "y": 442,
+          "x": 86,
+          "y": 624,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -942,8 +1102,8 @@
           "locked": false,
           "name": "Cyborg",
           "width": 123,
-          "x": 332,
-          "y": 322,
+          "x": 551,
+          "y": 446,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -957,8 +1117,8 @@
           "locked": false,
           "name": "TextQuit",
           "width": 0,
-          "x": 55,
-          "y": 490,
+          "x": 94,
+          "y": 672,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -1466,7 +1626,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.946
+        "zoomFactor": 0.802
       },
       "objectsGroups": [],
       "variables": [],
@@ -1509,8 +1669,8 @@
           "locked": false,
           "name": "BackButton",
           "width": 176,
-          "x": 103,
-          "y": 564,
+          "x": 4,
+          "y": 540,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1555,12 +1715,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs/BackButton-1.png",
+                      "image": "imgs\\BackButton.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 128,
-                        "y": 32
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1770,14 +1930,14 @@
         "grid": false,
         "gridB": 255,
         "gridG": 180,
-        "gridHeight": 70,
+        "gridHeight": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridR": 158,
-        "gridWidth": 70,
+        "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.7466
+        "zoomFactor": 0.538
       },
       "objectsGroups": [],
       "variables": [],
@@ -1790,8 +1950,8 @@
           "locked": false,
           "name": "BackButton",
           "width": 176,
-          "x": 103,
-          "y": 564,
+          "x": 27,
+          "y": 537,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1820,8 +1980,8 @@
           "locked": false,
           "name": "DevOneButton",
           "width": 230,
-          "x": 30,
-          "y": 135,
+          "x": 158,
+          "y": 211,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1835,8 +1995,8 @@
           "locked": false,
           "name": "DevTwoButton",
           "width": 230,
-          "x": 285,
-          "y": 135,
+          "x": 555,
+          "y": 180,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1850,8 +2010,8 @@
           "locked": false,
           "name": "DevThreeButton",
           "width": 230,
-          "x": 541,
-          "y": 135,
+          "x": 948,
+          "y": 180,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -1865,8 +2025,8 @@
           "locked": false,
           "name": "Tittle",
           "width": 0,
-          "x": 305,
-          "y": 40,
+          "x": 556,
+          "y": 96,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -1880,8 +2040,8 @@
           "locked": false,
           "name": "DevOneText",
           "width": 0,
-          "x": 113,
-          "y": 363,
+          "x": 252,
+          "y": 417,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -1895,8 +2055,8 @@
           "locked": false,
           "name": "DevTwoText",
           "width": 0,
-          "x": 372,
-          "y": 360,
+          "x": 634,
+          "y": 384,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -1910,8 +2070,8 @@
           "locked": false,
           "name": "DevThreeText",
           "width": 0,
-          "x": 624,
-          "y": 360,
+          "x": 1031,
+          "y": 398,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -1925,8 +2085,8 @@
           "locked": false,
           "name": "DevOneImage",
           "width": 0,
-          "x": 65,
-          "y": 164,
+          "x": 179,
+          "y": 227,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -1940,8 +2100,8 @@
           "locked": false,
           "name": "DevTwoImage",
           "width": 0,
-          "x": 320,
-          "y": 164,
+          "x": 595,
+          "y": 193,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -1955,8 +2115,8 @@
           "locked": false,
           "name": "DevThreeImage",
           "width": 0,
-          "x": 580,
-          "y": 164,
+          "x": 981,
+          "y": 203,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1965,11 +2125,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 601,
+          "height": 720,
           "layer": "",
           "locked": false,
           "name": "Backgroud",
-          "width": 802,
+          "width": 1340,
           "x": 0,
           "y": 0,
           "zOrder": 0,
@@ -2036,12 +2196,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs/BackButton-1.png",
+                      "image": "imgs\\BackButton.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 128,
-                        "y": 32
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2113,7 +2273,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs/layerNameOne-1.png",
+                      "image": "imgs\\layerName.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2171,7 +2331,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs/lucs.jpg",
+                      "image": "imgs\\dev_lucas.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2210,7 +2370,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs/layerNameOne-1.png",
+                      "image": "imgs\\layerName.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2251,6 +2411,45 @@
           }
         },
         {
+          "name": "DevTwoImage",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imgs\\dev_pedro.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "DevThreeButton",
           "tags": "",
           "type": "Sprite",
@@ -2268,7 +2467,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs/layerNameOne-1.png",
+                      "image": "imgs\\layerName.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2309,45 +2508,6 @@
           }
         },
         {
-          "name": "DevTwoImage",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "imgs/cois.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "DevThreeImage",
           "tags": "",
           "type": "Sprite",
@@ -2365,7 +2525,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs/eu.jpg",
+                      "image": "imgs\\dev_rafael.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2501,14 +2661,6 @@
             }
           ],
           "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ],
       "layers": [
@@ -2556,7 +2708,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.304
+        "zoomFactor": 0.592
       },
       "objectsGroups": [
         {
@@ -2564,6 +2716,9 @@
           "objects": [
             {
               "name": "Enemy1"
+            },
+            {
+              "name": "Enemy2"
             }
           ]
         }
@@ -2592,24 +2747,9 @@
           "layer": "game",
           "locked": false,
           "name": "piso",
-          "width": 1429,
-          "x": 479,
-          "y": 403,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 61,
-          "layer": "game",
-          "locked": false,
-          "name": "piso",
-          "width": 169,
-          "x": 2,
-          "y": 500,
+          "width": 6209,
+          "x": -317,
+          "y": 539,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2621,7 +2761,7 @@
           "height": 0,
           "layer": "game",
           "locked": false,
-          "name": "player",
+          "name": "Player",
           "width": 0,
           "x": 61,
           "y": 419,
@@ -2638,69 +2778,9 @@
           "locked": false,
           "name": "NewObject",
           "width": 102,
-          "x": 196,
-          "y": 465,
+          "x": 1061,
+          "y": 478,
           "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 29,
-          "layer": "game",
-          "locked": false,
-          "name": "NewObject",
-          "width": 102,
-          "x": 196,
-          "y": 465,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 29,
-          "layer": "game",
-          "locked": false,
-          "name": "NewObject",
-          "width": 102,
-          "x": 327,
-          "y": 426,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "game",
-          "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 570,
-          "y": 333,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 46,
-          "layer": "game",
-          "locked": false,
-          "name": "Enemy1",
-          "width": 51,
-          "x": 862,
-          "y": 341,
-          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2713,8 +2793,8 @@
           "locked": false,
           "name": "MoveRight",
           "width": 29,
-          "x": 490,
-          "y": 354,
+          "x": 1,
+          "y": 510,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -2728,8 +2808,8 @@
           "locked": false,
           "name": "MoveLeft",
           "width": 30,
-          "x": 1844,
-          "y": 350,
+          "x": 1792,
+          "y": 479,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2738,14 +2818,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 41,
-          "layer": "",
+          "height": 29,
+          "layer": "game",
           "locked": false,
-          "name": "Lifes",
-          "width": 39,
-          "x": 647,
-          "y": 0,
-          "zOrder": 11,
+          "name": "NewObject",
+          "width": 102,
+          "x": 1205,
+          "y": 449,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2753,14 +2833,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 41,
-          "layer": "",
+          "height": 29,
+          "layer": "game",
           "locked": false,
-          "name": "Lifes",
-          "width": 39,
-          "x": 689,
-          "y": 0,
-          "zOrder": 11,
+          "name": "NewObject",
+          "width": 102,
+          "x": 1095,
+          "y": 401,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2768,14 +2848,44 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 41,
-          "layer": "",
+          "height": 29,
+          "layer": "game",
           "locked": false,
-          "name": "Lifes",
-          "width": 39,
-          "x": 733,
-          "y": 0,
-          "zOrder": 11,
+          "name": "NewObject",
+          "width": 102,
+          "x": 1231,
+          "y": 369,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 29,
+          "layer": "game",
+          "locked": false,
+          "name": "NewObject",
+          "width": 111,
+          "x": 1117,
+          "y": 314,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 29,
+          "layer": "game",
+          "locked": false,
+          "name": "NewObject",
+          "width": 367,
+          "x": 1272,
+          "y": 280,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2788,8 +2898,203 @@
           "locked": false,
           "name": "Enemy1",
           "width": 51,
-          "x": 938,
-          "y": 341,
+          "x": 764,
+          "y": 484,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 27,
+          "layer": "game",
+          "locked": false,
+          "name": "MoveRight",
+          "width": 29,
+          "x": 1279,
+          "y": 244,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "game",
+          "locked": false,
+          "name": "MoveLeft",
+          "width": 30,
+          "x": 1576,
+          "y": 246,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 62,
+          "layer": "game",
+          "locked": false,
+          "name": "piso",
+          "width": 508,
+          "x": 1833,
+          "y": 480,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 63,
+          "layer": "",
+          "locked": false,
+          "name": "piso",
+          "width": 421,
+          "x": 1922,
+          "y": 448,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 63,
+          "layer": "",
+          "locked": false,
+          "name": "piso",
+          "width": 317,
+          "x": 2026,
+          "y": 417,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 63,
+          "layer": "",
+          "locked": false,
+          "name": "piso",
+          "width": 234,
+          "x": 2109,
+          "y": 386,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 63,
+          "layer": "",
+          "locked": false,
+          "name": "piso",
+          "width": 201,
+          "x": 2141,
+          "y": 354,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "game",
+          "locked": false,
+          "name": "MoveLeft",
+          "width": 30,
+          "x": 1792,
+          "y": 479,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 63,
+          "layer": "game",
+          "locked": false,
+          "name": "piso",
+          "width": 421,
+          "x": 1922,
+          "y": 448,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 63,
+          "layer": "game",
+          "locked": false,
+          "name": "piso",
+          "width": 317,
+          "x": 2026,
+          "y": 417,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 63,
+          "layer": "game",
+          "locked": false,
+          "name": "piso",
+          "width": 234,
+          "x": 2109,
+          "y": 386,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 63,
+          "layer": "game",
+          "locked": false,
+          "name": "piso",
+          "width": 201,
+          "x": 2141,
+          "y": 354,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 46,
+          "layer": "game",
+          "locked": false,
+          "name": "Enemy1",
+          "width": 51,
+          "x": 919,
+          "y": 484,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2803,9 +3108,99 @@
           "locked": false,
           "name": "Enemy1",
           "width": 51,
-          "x": 1004,
-          "y": 341,
+          "x": 838,
+          "y": 472,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 34,
+          "layer": "game",
+          "locked": false,
+          "name": "Enemy2",
+          "width": 37,
+          "x": 1358,
+          "y": 234,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "gui",
+          "locked": false,
+          "name": "Life1",
+          "width": 32,
+          "x": 688,
+          "y": 0,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "gui",
+          "locked": false,
+          "name": "Life2",
+          "width": 32,
+          "x": 724,
+          "y": 0,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "gui",
+          "locked": false,
+          "name": "Life3",
+          "width": 32,
+          "x": 760,
+          "y": 0,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Lifes",
+          "width": 0,
+          "x": 623,
+          "y": 7,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Coin",
+          "width": 0,
+          "x": 1534,
+          "y": 212,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2820,18 +3215,18 @@
           "variables": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 1,
               "leftEdgeAnchor": 1,
-              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 1,
-              "topEdgeAnchor": 1,
-              "type": "AnchorBehavior::AnchorBehavior"
+              "topEdgeAnchor": 1
             }
           ],
           "animations": [
             {
-              "name": "pause",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2840,7 +3235,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs\\pause-1-1.png",
+                      "image": "imgs\\pause.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2863,30 +3258,39 @@
         },
         {
           "height": 32,
-          "name": "piso",
+          "name": "Background",
           "tags": "",
-          "texture": "NewFile-1-0.png",
+          "texture": "",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
-          "behaviors": [
-            {
-              "canBeGrabbed": true,
-              "name": "Platform",
-              "platformType": "NormalPlatform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "yGrabOffset": 0
-            }
-          ]
+          "behaviors": []
         },
         {
-          "name": "player",
+          "height": 32,
+          "name": "Foreground",
+          "tags": "",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "name": "Player",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Life",
+              "value": "3"
+            }
+          ],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1200,
@@ -2895,10 +3299,8 @@
               "jumpSpeed": 600,
               "maxFallingSpeed": 700,
               "maxSpeed": 260,
-              "name": "PlatformerObject",
               "roundCoordinates": true,
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "xGrabTolerance": 10,
               "yGrabOffset": 0
             }
@@ -2936,373 +3338,6 @@
           ]
         },
         {
-          "height": 32,
-          "name": "NewObject",
-          "tags": "",
-          "texture": "NewFile-1-2.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": [
-            {
-              "canBeGrabbed": true,
-              "name": "Platform",
-              "platformType": "Jumpthru",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "name": "Lifes",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewObject2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Coin",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewObject2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.125,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject2-1-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 33,
-                            "y": 3
-                          },
-                          {
-                            "x": 61,
-                            "y": 32
-                          },
-                          {
-                            "x": 34,
-                            "y": 60
-                          },
-                          {
-                            "x": 6,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject2-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 33,
-                            "y": 3
-                          },
-                          {
-                            "x": 61,
-                            "y": 32
-                          },
-                          {
-                            "x": 34,
-                            "y": 60
-                          },
-                          {
-                            "x": 6,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject2-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 33,
-                            "y": 3
-                          },
-                          {
-                            "x": 61,
-                            "y": 32
-                          },
-                          {
-                            "x": 34,
-                            "y": 60
-                          },
-                          {
-                            "x": 6,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject2-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 33,
-                            "y": 3
-                          },
-                          {
-                            "x": 61,
-                            "y": 32
-                          },
-                          {
-                            "x": 34,
-                            "y": 60
-                          },
-                          {
-                            "x": 6,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject2-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 33,
-                            "y": 3
-                          },
-                          {
-                            "x": 61,
-                            "y": 32
-                          },
-                          {
-                            "x": 34,
-                            "y": 60
-                          },
-                          {
-                            "x": 6,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject2-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 33,
-                            "y": 3
-                          },
-                          {
-                            "x": 61,
-                            "y": 32
-                          },
-                          {
-                            "x": 34,
-                            "y": 60
-                          },
-                          {
-                            "x": 6,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject2-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 33,
-                            "y": 3
-                          },
-                          {
-                            "x": 61,
-                            "y": 32
-                          },
-                          {
-                            "x": 34,
-                            "y": 60
-                          },
-                          {
-                            "x": 6,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject2-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 33,
-                            "y": 3
-                          },
-                          {
-                            "x": 61,
-                            "y": 32
-                          },
-                          {
-                            "x": 34,
-                            "y": 60
-                          },
-                          {
-                            "x": 6,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Enemy1",
           "tags": "",
           "type": "Sprite",
@@ -3315,18 +3350,98 @@
           ],
           "behaviors": [
             {
-              "acceleration": 900,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1000,
+              "gravity": 1050,
               "canGrabPlatforms": true,
               "deceleration": 1500,
-              "gravity": 1100,
               "ignoreDefaultControls": true,
               "jumpSpeed": 600,
               "maxFallingSpeed": 700,
               "maxSpeed": 150,
-              "name": "PlatformerObject",
               "roundCoordinates": true,
               "slopeMaxAngle": 60,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewObject2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewObject2-1-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 2
+                          },
+                          {
+                            "x": 62,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enemy2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "direction",
+              "value": "1"
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 200,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "canGrabPlatforms": true,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 150,
+              "roundCoordinates": true,
+              "slopeMaxAngle": 60,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
             }
@@ -3391,7 +3506,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject2",
+              "name": "MoveRight",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3400,7 +3515,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1-4.png",
+                      "image": "imgs\\move_right.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3430,7 +3545,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject2-1-4-Copia",
+              "name": "MoveLeft",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3439,7 +3554,337 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1-4 - Copia.png",
+                      "image": "imgs\\move_left.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Lifes",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Vidas:",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "Life1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject2-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Life2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject2-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Life3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject2-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "piso",
+          "tags": "",
+          "texture": "NewFile-1-0.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "NewObject",
+          "tags": "",
+          "texture": "NewFile-1-2.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "name": "Coin",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Coin",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imgs\\coin.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imgs\\coin.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imgs\\coin2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imgs\\coin3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imgs\\coin4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imgs\\coin.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imgs\\coin.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imgs\\coin.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3551,8 +3996,8 @@
               },
               "parameters": [
                 "",
-                "player",
-                "",
+                "Player",
+                "no",
                 "\"game\"",
                 "0"
               ],
@@ -3583,56 +4028,6 @@
                 "player.X()*0.25",
                 "\"background\"",
                 "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Itens",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "player",
-                "Coin",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "Coin",
-                ""
               ],
               "subInstructions": []
             }
@@ -3857,6 +4252,54 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "OBJECTSMANAGEMENT",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "ObjectsEvents"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "HUD EVENTS",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "HudEvent"
         }
       ],
       "layers": [
@@ -4318,11 +4761,63 @@
         }
       ],
       "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "GameOver",
+      "name": "GameOver",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [
     {
-      "associatedLayout": "New scene",
+      "associatedLayout": "Game",
       "lastChangeTimeStamp": 1383154438,
       "name": "EnemiesManagement",
       "events": [
@@ -4384,7 +4879,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GoLeft",
+                "MoveLeft",
                 "Enemy",
                 ""
               ],
@@ -4419,7 +4914,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GoRight",
+                "MoveRight",
                 "Enemy",
                 ""
               ],
@@ -4605,7 +5100,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "PlayerHitBox",
+                    "Player",
                     "Enemy",
                     ""
                   ],
@@ -4625,7 +5120,7 @@
                         "value": "PlatformBehavior::IsFalling"
                       },
                       "parameters": [
-                        "PlayerHitBox",
+                        "Player",
                         "PlatformerObject"
                       ],
                       "subInstructions": []
@@ -4675,7 +5170,7 @@
                         "value": "PlatformBehavior::SetCanJump"
                       },
                       "parameters": [
-                        "PlayerHitBox",
+                        "Player",
                         "PlatformerObject"
                       ],
                       "subInstructions": []
@@ -4832,7 +5327,7 @@
               "parameters": [
                 "Enemy",
                 "-",
-                "50*TimeDelta()"
+                "200*TimeDelta()"
               ],
               "subInstructions": []
             }
@@ -4876,10 +5371,25 @@
       ]
     },
     {
-      "associatedLayout": "New scene",
+      "associatedLayout": "Game",
       "lastChangeTimeStamp": 1383151997,
-      "name": "ObjectsManagement",
+      "name": "ObjectsEvents",
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Coin",
+          "comment2": ""
+        },
         {
           "disabled": false,
           "folded": false,
@@ -4891,7 +5401,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "PlayerHitBox",
+                "Player",
                 "Coin",
                 ""
               ],
@@ -4930,10 +5440,10 @@
               },
               "parameters": [
                 "",
-                "coin.wav",
+                "samples\\coin.wav",
                 "",
-                "",
-                ""
+                "10",
+                "1"
               ],
               "subInstructions": []
             },
@@ -4979,7 +5489,7 @@
               "parameters": [
                 "Coin",
                 "-",
-                "255*TimeDelta()"
+                "1000*TimeDelta()"
               ],
               "subInstructions": []
             },
@@ -4991,7 +5501,7 @@
               "parameters": [
                 "Coin",
                 "0",
-                "-30",
+                "0",
                 "0"
               ],
               "subInstructions": []
@@ -5035,32 +5545,278 @@
       ]
     },
     {
-      "associatedLayout": "New scene",
-      "lastChangeTimeStamp": 1383151997,
-      "name": "GUIManagement",
+      "associatedLayout": "Game",
+      "lastChangeTimeStamp": 0,
+      "name": "HudEvent",
       "events": [
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Contador de Vidas",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "Life",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Life",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Life1",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Life2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Life3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Life",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Life1",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Life2",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Life3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Life",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Life1",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Life2",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Life3",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "Life",
+                "<=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
           "actions": [
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::String"
+                "value": "Scene"
               },
               "parameters": [
-                "Score",
-                "=",
-                "\"x \"+ToString(Variable(Score))"
+                "",
+                "\"GameOver\"",
+                "yes"
               ],
               "subInstructions": []
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Contador de Score",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ]
+    },
+    {
+      "associatedLayout": "",
+      "lastChangeTimeStamp": 0,
+      "name": "NewExternalEvents",
+      "events": []
     }
   ],
   "eventsFunctionsExtensions": [],
