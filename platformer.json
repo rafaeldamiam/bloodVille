@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.platformer",
-    "projectFile": "C:\\xampp\\htdocs\\Projetos\\bloodVille\\platformer.json",
+    "projectFile": "/home/doaryo/projetos/bloodVille/platformer.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -1041,7 +1041,7 @@
           "layer": "",
           "locked": false,
           "name": "Back",
-          "width": 1340,
+          "width": 1345,
           "x": 0,
           "y": 0,
           "zOrder": 2,
@@ -1626,7 +1626,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.802
+        "zoomFactor": 0.73
       },
       "objectsGroups": [],
       "variables": [],
@@ -1649,12 +1649,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 600,
+          "height": 720,
           "layer": "",
           "locked": false,
           "name": "Image",
-          "width": 892,
-          "x": -46,
+          "width": 1345,
+          "x": 0,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -1802,7 +1802,7 @@
               "parameters": [
                 "BackButton",
                 "=",
-                "(SceneWindowWidth()/16)"
+                "(SceneWindowWidth()/900)"
               ],
               "subInstructions": []
             },
@@ -1814,7 +1814,7 @@
               "parameters": [
                 "BackButton",
                 "=",
-                "(SceneWindowHeight()/1.1)"
+                "(SceneWindowHeight()/1.135)"
               ],
               "subInstructions": []
             },
@@ -1826,7 +1826,7 @@
               "parameters": [
                 "BackText",
                 "=",
-                "(SceneWindowWidth()/16)"
+                "(SceneWindowWidth()/20)"
               ],
               "subInstructions": []
             },
@@ -1937,7 +1937,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.538
+        "zoomFactor": 0.442
       },
       "objectsGroups": [],
       "variables": [],
@@ -1950,8 +1950,8 @@
           "locked": false,
           "name": "BackButton",
           "width": 176,
-          "x": 27,
-          "y": 537,
+          "x": 25,
+          "y": 639,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1965,8 +1965,8 @@
           "locked": false,
           "name": "BackText",
           "width": 0,
-          "x": 63,
-          "y": 552,
+          "x": 33,
+          "y": 645,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1975,13 +1975,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 264,
+          "height": 249,
           "layer": "",
           "locked": false,
           "name": "DevOneButton",
-          "width": 230,
-          "x": 158,
-          "y": 211,
+          "width": 210,
+          "x": 150,
+          "y": 360,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1995,8 +1995,8 @@
           "locked": false,
           "name": "DevTwoButton",
           "width": 230,
-          "x": 555,
-          "y": 180,
+          "x": 546,
+          "y": 360,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2010,8 +2010,8 @@
           "locked": false,
           "name": "DevThreeButton",
           "width": 230,
-          "x": 948,
-          "y": 180,
+          "x": 947,
+          "y": 360,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -2040,8 +2040,8 @@
           "locked": false,
           "name": "DevOneText",
           "width": 0,
-          "x": 252,
-          "y": 417,
+          "x": 232,
+          "y": 558,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -2055,8 +2055,8 @@
           "locked": false,
           "name": "DevTwoText",
           "width": 0,
-          "x": 634,
-          "y": 384,
+          "x": 628,
+          "y": 574,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2071,7 +2071,7 @@
           "name": "DevThreeText",
           "width": 0,
           "x": 1031,
-          "y": 398,
+          "y": 574,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -2085,8 +2085,8 @@
           "locked": false,
           "name": "DevOneImage",
           "width": 0,
-          "x": 179,
-          "y": 227,
+          "x": 175,
+          "y": 379,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2100,8 +2100,8 @@
           "locked": false,
           "name": "DevTwoImage",
           "width": 0,
-          "x": 595,
-          "y": 193,
+          "x": 576,
+          "y": 385,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -2115,8 +2115,8 @@
           "locked": false,
           "name": "DevThreeImage",
           "width": 0,
-          "x": 981,
-          "y": 203,
+          "x": 980,
+          "y": 393,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -2129,10 +2129,25 @@
           "layer": "",
           "locked": false,
           "name": "Backgroud",
-          "width": 1340,
+          "width": 1345,
           "x": 0,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 193,
+          "layer": "",
+          "locked": false,
+          "name": "AboutUsProj",
+          "width": 1199,
+          "x": 50,
+          "y": 150,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2157,7 +2172,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs/City3_edit.png",
+                      "image": "imgs/City3_edit2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2545,6 +2560,25 @@
               ]
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "AboutUsProj",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Buscamos levar os conhecimentos hematológicos de forma simples, interativa e divertida. Abordamos principalmente a doação de sangue, pois é um dos grandes problemas pelo qual o Brasil passa no setor da saúde. A partir disso, utilizamos de conhecimento tecnológico e biológico para o desenvolvimento de um jogo virtual, que transmite um breve conhecimento sobre o assunto. Assim esperamos despertar na população uma vontade de contribuir com os necessitados desse item vital, o sangue. ",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -2573,7 +2607,7 @@
               "parameters": [
                 "BackButton",
                 "=",
-                "(SceneWindowWidth()/16)"
+                "(SceneWindowWidth()/900)"
               ],
               "subInstructions": []
             },
@@ -2585,7 +2619,7 @@
               "parameters": [
                 "BackButton",
                 "=",
-                "(SceneWindowHeight()/1.1)"
+                "(SceneWindowHeight()/1.135)"
               ],
               "subInstructions": []
             },
@@ -2597,7 +2631,7 @@
               "parameters": [
                 "BackText",
                 "=",
-                "(SceneWindowWidth()/16)"
+                "(SceneWindowWidth()/20)"
               ],
               "subInstructions": []
             },
@@ -3138,8 +3172,8 @@
           "locked": false,
           "name": "Life1",
           "width": 32,
-          "x": 688,
-          "y": 0,
+          "x": 1161,
+          "y": 3,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -3153,8 +3187,8 @@
           "locked": false,
           "name": "Life2",
           "width": 32,
-          "x": 724,
-          "y": 0,
+          "x": 1197,
+          "y": 3,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -3168,8 +3202,8 @@
           "locked": false,
           "name": "Life3",
           "width": 32,
-          "x": 760,
-          "y": 0,
+          "x": 1233,
+          "y": 3,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -3183,8 +3217,8 @@
           "locked": false,
           "name": "Lifes",
           "width": 0,
-          "x": 623,
-          "y": 7,
+          "x": 1096,
+          "y": 10,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -3285,6 +3319,14 @@
             {
               "name": "Life",
               "value": "3"
+            },
+            {
+              "name": "DoubleJump",
+              "value": "1"
+            },
+            {
+              "name": "JumpCount",
+              "value": "0"
             }
           ],
           "behaviors": [
@@ -4300,6 +4342,30 @@
             "includeConfig": 0
           },
           "target": "HudEvent"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player Events",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "PlayerEvents"
         }
       ],
       "layers": [
@@ -4384,7 +4450,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.024
+        "zoomFactor": 0.76
       },
       "objectsGroups": [],
       "variables": [],
@@ -4397,8 +4463,8 @@
           "locked": false,
           "name": "TextButton_Continue",
           "width": 0,
-          "x": 319,
-          "y": 244,
+          "x": 582,
+          "y": 288,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -4407,11 +4473,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 601,
+          "height": 720,
           "layer": "",
           "locked": false,
           "name": "Background",
-          "width": 802,
+          "width": 1345,
           "x": 0,
           "y": 0,
           "zOrder": 0,
@@ -4425,11 +4491,26 @@
           "height": 0,
           "layer": "",
           "locked": false,
+          "name": "Title",
+          "width": 0,
+          "x": 582,
+          "y": 153,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
           "name": "TextButton_Menu",
           "width": 0,
-          "x": 254,
-          "y": 309,
-          "zOrder": 3,
+          "x": 472,
+          "y": 376,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4442,9 +4523,9 @@
           "locked": false,
           "name": "TextButton_Quit",
           "width": 0,
-          "x": 352,
-          "y": 382,
-          "zOrder": 4,
+          "x": 621,
+          "y": 487,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4489,6 +4570,25 @@
               ]
             }
           ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Title",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Pausa",
+          "font": "",
+          "characterSize": 45,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         },
         {
           "bold": true,
@@ -4558,6 +4658,21 @@
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Funcionamento de Botões",
+          "comment2": ""
+        },
         {
           "disabled": false,
           "folded": false,
@@ -4734,6 +4849,137 @@
                 "",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Posição de Botões",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TextButton_Continue",
+                "=",
+                "(SceneWindowWidth()/2.26)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "TextButton_Continue",
+                "=",
+                "(SceneWindowHeight()/2.60)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Title",
+                "=",
+                "(SceneWindowWidth()/2.24)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Title",
+                "=",
+                "(SceneWindowHeight()/7)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TextButton_Menu",
+                "=",
+                "(SceneWindowWidth()/2.54)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "TextButton_Menu",
+                "=",
+                "(SceneWindowHeight()/2)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TextButton_Quit",
+                "=",
+                "(SceneWindowWidth()/2.1)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "TextButton_Quit",
+                "=",
+                "(SceneWindowHeight()/1.6)"
               ],
               "subInstructions": []
             }
@@ -5813,10 +6059,104 @@
       ]
     },
     {
-      "associatedLayout": "",
+      "associatedLayout": "Game",
       "lastChangeTimeStamp": 0,
-      "name": "NewExternalEvents",
-      "events": []
+      "name": "PlayerEvents",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Double Jump",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Verifica se pode realizar o pulo",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "DoubleJump",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::IsJumping"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "eventsFunctionsExtensions": [],
