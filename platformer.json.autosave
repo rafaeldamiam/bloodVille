@@ -750,15 +750,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject2-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewObject2-1-2.png",
         "kind": "image",
         "metadata": "",
@@ -995,6 +986,15 @@
         "kind": "image",
         "metadata": "",
         "name": "imgs\\dev_rafael.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-1.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -3172,8 +3172,8 @@
           "locked": false,
           "name": "Life1",
           "width": 32,
-          "x": 688,
-          "y": 0,
+          "x": 1161,
+          "y": 3,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -3187,8 +3187,8 @@
           "locked": false,
           "name": "Life2",
           "width": 32,
-          "x": 724,
-          "y": 0,
+          "x": 1197,
+          "y": 3,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -3202,8 +3202,8 @@
           "locked": false,
           "name": "Life3",
           "width": 32,
-          "x": 760,
-          "y": 0,
+          "x": 1233,
+          "y": 3,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -3217,8 +3217,8 @@
           "locked": false,
           "name": "Lifes",
           "width": 0,
-          "x": 623,
-          "y": 7,
+          "x": 1096,
+          "y": 10,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -3235,6 +3235,21 @@
           "x": 1534,
           "y": 212,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 113,
+          "layer": "game",
+          "locked": false,
+          "name": "CheckPoint",
+          "width": 64,
+          "x": 598,
+          "y": 425,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3319,6 +3334,14 @@
             {
               "name": "Life",
               "value": "3"
+            },
+            {
+              "name": "DoubleJump",
+              "value": "1"
+            },
+            {
+              "name": "JumpCount",
+              "value": "0"
             }
           ],
           "behaviors": [
@@ -3938,6 +3961,45 @@
               ]
             }
           ]
+        },
+        {
+          "name": "CheckPoint",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject2-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -4334,6 +4396,30 @@
             "includeConfig": 0
           },
           "target": "HudEvent"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player Events",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "PlayerEvents"
         }
       ],
       "layers": [
@@ -6027,10 +6113,104 @@
       ]
     },
     {
-      "associatedLayout": "",
+      "associatedLayout": "Game",
       "lastChangeTimeStamp": 0,
-      "name": "NewExternalEvents",
-      "events": []
+      "name": "PlayerEvents",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Double Jump",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Verifica se pode realizar o pulo",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "DoubleJump",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::IsJumping"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "eventsFunctionsExtensions": [],
