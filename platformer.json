@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.platformer",
-    "projectFile": "/home/doaryo/projetos/bloodVille/platformer.json",
+    "projectFile": "/home/doaryo/Área de Trabalho/bloodVille/platformer.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -997,6 +997,276 @@
         "name": "NewObject2-1-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/hud/pause.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/hud/pause.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/player/cyborg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/player/cyborg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/hud/heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/hud/heart.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/enemy/NewObject2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/enemy/NewObject2-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/enemy/NewObject2-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/enemy/NewObject2-1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/plataform/NewFile-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/plataform/NewFile-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/plataform/NewFile-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/plataform/NewFile-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/coin/coin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/coin/coin.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/coin/coin2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/coin/coin2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/coin/coin3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/coin/coin3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/coin/coin4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/coin/coin4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/plataform/bloco.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/plataform/bloco.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/plataform/Tile (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/plataform/Tile (2).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/plataform/Tile (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/plataform/Tile (5).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/plataform/plataform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/plataform/plataform.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/plataform/plataform-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/plataform/plataform-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/delimiter/move_left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/delimiter/move_left.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/delimiter/move_right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/delimiter/move_right.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/plataform/box_ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/plataform/box_ground.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/background/507341_twilight-in-gotham-city-cities-backgrounds-for-mobile-devices_2560x1477_h.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/background/507341_twilight-in-gotham-city-cities-backgrounds-for-mobile-devices_2560x1477_h.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/background/City3_edit2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/background/City3_edit2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/plataform/box_plataform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/plataform/box_plataform.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/background/JOGAR.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/background/JOGAR.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/layers/layerName.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/layers/layerName.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/layers/BackButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/layers/BackButton.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/screen/Controles.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/screen/Controles.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/dev/dev_lucas.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/dev/dev_lucas.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/dev/dev_pedro.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/dev/dev_pedro.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/dev/dev_rafael.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/dev/dev_rafael.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/background/City3_edit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/background/City3_edit.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1034,21 +1304,6 @@
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 720,
-          "layer": "",
-          "locked": false,
-          "name": "Back",
-          "width": 1345,
-          "x": 0,
-          "y": 0,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -1123,6 +1378,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 720,
+          "layer": "",
+          "locked": false,
+          "name": "Back",
+          "width": 1345,
+          "x": 0,
+          "y": 0,
+          "zOrder": -2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1144,7 +1414,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs/City3_edit2.png",
+                      "image": "imgs/background/City3_edit2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1183,7 +1453,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs/cyborg.png",
+                      "image": "imgs/player/cyborg.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1715,7 +1985,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs\\BackButton.png",
+                      "image": "imgs/layers/BackButton.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1754,7 +2024,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs/Controles.jpg",
+                      "image": "imgs/screen/Controles.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1935,9 +2205,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.442
+        "zoomFactor": 0.586
       },
       "objectsGroups": [],
       "variables": [],
@@ -1975,13 +2245,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 249,
+          "height": 256,
           "layer": "",
           "locked": false,
           "name": "DevOneButton",
-          "width": 210,
-          "x": 150,
-          "y": 360,
+          "width": 224,
+          "x": 128,
+          "y": 352,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1990,13 +2260,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 264,
+          "height": 256,
           "layer": "",
           "locked": false,
           "name": "DevTwoButton",
-          "width": 230,
-          "x": 546,
-          "y": 360,
+          "width": 224,
+          "x": 512,
+          "y": 352,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2005,13 +2275,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 264,
+          "height": 256,
           "layer": "",
           "locked": false,
           "name": "DevThreeButton",
-          "width": 230,
-          "x": 947,
-          "y": 360,
+          "width": 224,
+          "x": 896,
+          "y": 352,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -2025,8 +2295,8 @@
           "locked": false,
           "name": "Tittle",
           "width": 0,
-          "x": 556,
-          "y": 96,
+          "x": 576,
+          "y": 32,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -2034,14 +2304,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 32,
           "layer": "",
           "locked": false,
           "name": "DevOneText",
-          "width": 0,
-          "x": 232,
-          "y": 558,
+          "width": 55,
+          "x": 214,
+          "y": 562,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -2055,8 +2325,8 @@
           "locked": false,
           "name": "DevTwoText",
           "width": 0,
-          "x": 628,
-          "y": 574,
+          "x": 598,
+          "y": 564,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2070,8 +2340,8 @@
           "locked": false,
           "name": "DevThreeText",
           "width": 0,
-          "x": 1031,
-          "y": 574,
+          "x": 977,
+          "y": 562,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -2085,8 +2355,8 @@
           "locked": false,
           "name": "DevOneImage",
           "width": 0,
-          "x": 175,
-          "y": 379,
+          "x": 160,
+          "y": 384,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2100,8 +2370,8 @@
           "locked": false,
           "name": "DevTwoImage",
           "width": 0,
-          "x": 576,
-          "y": 385,
+          "x": 544,
+          "y": 384,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -2115,8 +2385,8 @@
           "locked": false,
           "name": "DevThreeImage",
           "width": 0,
-          "x": 980,
-          "y": 393,
+          "x": 928,
+          "y": 384,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -2140,13 +2410,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 193,
+          "height": 192,
           "layer": "",
           "locked": false,
           "name": "AboutUsProj",
-          "width": 1199,
-          "x": 50,
-          "y": 150,
+          "width": 1216,
+          "x": 32,
+          "y": 96,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -2172,7 +2442,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs/City3_edit2.png",
+                      "image": "imgs/background/City3_edit2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2211,7 +2481,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs\\BackButton.png",
+                      "image": "imgs/layers/BackButton.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2271,6 +2541,25 @@
           }
         },
         {
+          "bold": false,
+          "italic": false,
+          "name": "AboutUsProj",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Buscamos levar os conhecimentos hematológicos de forma simples, interativa e divertida. Abordamos principalmente a doação de sangue, pois é um dos grandes problemas pelo qual o Brasil passa no setor da saúde. A partir disso, utilizamos de conhecimento tecnológico e biológico para o desenvolvimento de um jogo virtual, que transmite um breve conhecimento sobre o assunto. Assim esperamos despertar na população uma vontade de contribuir com os necessitados desse item vital, o sangue. ",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
           "name": "DevOneButton",
           "tags": "",
           "type": "Sprite",
@@ -2288,7 +2577,46 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs\\layerName.png",
+                      "image": "imgs/layers/layerName.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DevOneImage",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imgs/dev/dev_lucas.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2329,7 +2657,7 @@
           }
         },
         {
-          "name": "DevOneImage",
+          "name": "DevTwoButton",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -2337,7 +2665,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "layerNameOne",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2346,7 +2674,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs\\dev_lucas.jpg",
+                      "image": "imgs/layers/layerName.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2368,7 +2696,7 @@
           ]
         },
         {
-          "name": "DevTwoButton",
+          "name": "DevTwoImage",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -2376,7 +2704,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "layerNameOne",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2385,7 +2713,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs\\layerName.png",
+                      "image": "imgs/dev/dev_pedro.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2426,7 +2754,7 @@
           }
         },
         {
-          "name": "DevTwoImage",
+          "name": "DevThreeButton",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -2434,7 +2762,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "layerNameOne",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2443,7 +2771,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs\\dev_pedro.jpg",
+                      "image": "imgs/layers/layerName.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2465,7 +2793,7 @@
           ]
         },
         {
-          "name": "DevThreeButton",
+          "name": "DevThreeImage",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -2473,7 +2801,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "layerNameOne",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2482,7 +2810,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs\\layerName.png",
+                      "image": "imgs/dev/dev_rafael.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2516,64 +2844,6 @@
           "string": "Rafael",
           "font": "",
           "characterSize": 20,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "name": "DevThreeImage",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "imgs\\dev_rafael.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "AboutUsProj",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Buscamos levar os conhecimentos hematológicos de forma simples, interativa e divertida. Abordamos principalmente a doação de sangue, pois é um dos grandes problemas pelo qual o Brasil passa no setor da saúde. A partir disso, utilizamos de conhecimento tecnológico e biológico para o desenvolvimento de um jogo virtual, que transmite um breve conhecimento sobre o assunto. Assim esperamos despertar na população uma vontade de contribuir com os necessitados desse item vital, o sangue. ",
-          "font": "",
-          "characterSize": 30,
           "color": {
             "b": 255,
             "g": 255,
@@ -2740,9 +3010,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.592
+        "zoomFactor": 0.232
       },
       "objectsGroups": [
         {
@@ -2786,44 +3056,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 61,
-          "layer": "game",
-          "locked": false,
-          "name": "piso",
-          "width": 6209,
-          "x": -317,
-          "y": 539,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "height": 126,
           "layer": "game",
           "locked": false,
           "name": "Player",
-          "width": 0,
-          "x": 61,
-          "y": 419,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 29,
-          "layer": "game",
-          "locked": false,
-          "name": "NewObject",
-          "width": 102,
-          "x": 1061,
-          "y": 478,
-          "zOrder": 6,
+          "width": 70,
+          "x": 106,
+          "y": 431,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2836,8 +3076,8 @@
           "locked": false,
           "name": "MoveRight",
           "width": 29,
-          "x": 1,
-          "y": 510,
+          "x": 64,
+          "y": 576,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -2851,84 +3091,9 @@
           "locked": false,
           "name": "MoveLeft",
           "width": 30,
-          "x": 1792,
-          "y": 479,
+          "x": 2368,
+          "y": 544,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 29,
-          "layer": "game",
-          "locked": false,
-          "name": "NewObject",
-          "width": 102,
-          "x": 1205,
-          "y": 449,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 29,
-          "layer": "game",
-          "locked": false,
-          "name": "NewObject",
-          "width": 102,
-          "x": 1095,
-          "y": 401,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 29,
-          "layer": "game",
-          "locked": false,
-          "name": "NewObject",
-          "width": 102,
-          "x": 1231,
-          "y": 369,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 29,
-          "layer": "game",
-          "locked": false,
-          "name": "NewObject",
-          "width": 111,
-          "x": 1117,
-          "y": 314,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 29,
-          "layer": "game",
-          "locked": false,
-          "name": "NewObject",
-          "width": 367,
-          "x": 1272,
-          "y": 280,
-          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2941,8 +3106,8 @@
           "locked": false,
           "name": "Enemy1",
           "width": 51,
-          "x": 764,
-          "y": 484,
+          "x": 352,
+          "y": 512,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2956,8 +3121,8 @@
           "locked": false,
           "name": "MoveRight",
           "width": 29,
-          "x": 1279,
-          "y": 244,
+          "x": 2648,
+          "y": 256,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -2971,159 +3136,9 @@
           "locked": false,
           "name": "MoveLeft",
           "width": 30,
-          "x": 1576,
-          "y": 246,
+          "x": 3074,
+          "y": 251,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 62,
-          "layer": "game",
-          "locked": false,
-          "name": "piso",
-          "width": 508,
-          "x": 1833,
-          "y": 480,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 63,
-          "layer": "",
-          "locked": false,
-          "name": "piso",
-          "width": 421,
-          "x": 1922,
-          "y": 448,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 63,
-          "layer": "",
-          "locked": false,
-          "name": "piso",
-          "width": 317,
-          "x": 2026,
-          "y": 417,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 63,
-          "layer": "",
-          "locked": false,
-          "name": "piso",
-          "width": 234,
-          "x": 2109,
-          "y": 386,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 63,
-          "layer": "",
-          "locked": false,
-          "name": "piso",
-          "width": 201,
-          "x": 2141,
-          "y": 354,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 23,
-          "layer": "game",
-          "locked": false,
-          "name": "MoveLeft",
-          "width": 30,
-          "x": 1792,
-          "y": 479,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 63,
-          "layer": "game",
-          "locked": false,
-          "name": "piso",
-          "width": 421,
-          "x": 1922,
-          "y": 448,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 63,
-          "layer": "game",
-          "locked": false,
-          "name": "piso",
-          "width": 317,
-          "x": 2026,
-          "y": 417,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 63,
-          "layer": "game",
-          "locked": false,
-          "name": "piso",
-          "width": 234,
-          "x": 2109,
-          "y": 386,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 63,
-          "layer": "game",
-          "locked": false,
-          "name": "piso",
-          "width": 201,
-          "x": 2141,
-          "y": 354,
-          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3136,8 +3151,8 @@
           "locked": false,
           "name": "Enemy1",
           "width": 51,
-          "x": 919,
-          "y": 484,
+          "x": 480,
+          "y": 512,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -3151,8 +3166,8 @@
           "locked": false,
           "name": "Enemy1",
           "width": 51,
-          "x": 838,
-          "y": 472,
+          "x": 416,
+          "y": 512,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -3166,8 +3181,8 @@
           "locked": false,
           "name": "Enemy2",
           "width": 37,
-          "x": 1358,
-          "y": 234,
+          "x": 2727,
+          "y": 246,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -3241,8 +3256,8 @@
           "locked": false,
           "name": "Coin",
           "width": 0,
-          "x": 1534,
-          "y": 212,
+          "x": 2857,
+          "y": 174,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -3251,14 +3266,194 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 113,
+          "height": 32,
           "layer": "game",
           "locked": false,
-          "name": "CheckPoint",
-          "width": 64,
-          "x": 598,
-          "y": 425,
-          "zOrder": 18,
+          "name": "PisoMov",
+          "width": 514,
+          "x": 2637,
+          "y": 298,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 768,
+          "layer": "game",
+          "locked": false,
+          "name": "Caixa",
+          "width": 3840,
+          "x": -704,
+          "y": 608,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1078,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "width": 2118,
+          "x": -455,
+          "y": -198,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "game",
+          "locked": false,
+          "name": "PisoFix",
+          "width": 3072,
+          "x": 64,
+          "y": 608,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 258,
+          "layer": "game",
+          "locked": false,
+          "name": "Caixa",
+          "width": 764,
+          "x": -704,
+          "y": 352,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "PisoMov",
+          "width": 0,
+          "x": 3200,
+          "y": 544,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "game",
+          "locked": false,
+          "name": "PisoMov",
+          "width": 256,
+          "x": 2239,
+          "y": 433,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "game",
+          "locked": false,
+          "name": "PisoMov",
+          "width": 256,
+          "x": 2419,
+          "y": 369,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "game",
+          "locked": false,
+          "name": "PisoMov",
+          "width": 256,
+          "x": 1958,
+          "y": 565,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "game",
+          "locked": false,
+          "name": "PisoMov",
+          "width": 256,
+          "x": 2104,
+          "y": 506,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Coin",
+          "width": 0,
+          "x": 192,
+          "y": 512,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "PisoMov",
+          "width": 0,
+          "x": 3488,
+          "y": 480,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "PisoMov",
+          "width": 0,
+          "x": 3776,
+          "y": 416,
+          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3293,7 +3488,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs\\pause.png",
+                      "image": "imgs/objects/hud/pause.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3318,7 +3513,7 @@
           "height": 32,
           "name": "Background",
           "tags": "",
-          "texture": "",
+          "texture": "imgs/background/City3_edit2.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -3373,7 +3568,7 @@
           ],
           "animations": [
             {
-              "name": "NewObject2",
+              "name": "walk",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3382,7 +3577,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1.png",
+                      "image": "imgs/player/cyborg.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3398,6 +3593,17 @@
                       "customCollisionMask": []
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "name": "jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
                 }
               ]
             }
@@ -3442,8 +3648,8 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject2-1-3.png",
+                      "hasCustomCollisionMask": false,
+                      "image": "imgs/objects/enemy/NewObject2-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3456,26 +3662,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 2
-                          },
-                          {
-                            "x": 62,
-                            "y": 2
-                          },
-                          {
-                            "x": 61,
-                            "y": 63
-                          },
-                          {
-                            "x": 1,
-                            "y": 61
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -3522,8 +3709,8 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject2-1-3.png",
+                      "hasCustomCollisionMask": false,
+                      "image": "imgs/objects/enemy/NewObject2-1-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3536,26 +3723,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 2
-                          },
-                          {
-                            "x": 62,
-                            "y": 2
-                          },
-                          {
-                            "x": 61,
-                            "y": 63
-                          },
-                          {
-                            "x": 1,
-                            "y": 61
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -3581,7 +3749,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs\\move_right.png",
+                      "image": "imgs/objects/delimiter/move_right.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3678,7 +3846,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1-0.png",
+                      "image": "imgs/objects/hud/heart.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3717,7 +3885,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1-0.png",
+                      "image": "imgs/objects/hud/heart.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3756,7 +3924,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1-0.png",
+                      "image": "imgs/objects/hud/heart.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3778,12 +3946,12 @@
           ]
         },
         {
-          "height": 32,
-          "name": "piso",
+          "height": 256,
+          "name": "Caixa",
           "tags": "",
-          "texture": "NewFile-1-0.png",
+          "texture": "imgs/objects/plataform/box_ground.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
+          "width": 256,
           "variables": [],
           "behaviors": [
             {
@@ -3796,12 +3964,30 @@
           ]
         },
         {
-          "height": 32,
-          "name": "NewObject",
+          "height": 256,
+          "name": "PisoFix",
           "tags": "",
-          "texture": "NewFile-1-2.png",
+          "texture": "imgs/objects/plataform/box_plataform.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
+          "width": 256,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 128,
+          "name": "PisoMov",
+          "tags": "",
+          "texture": "imgs/objects/plataform/plataform-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 256,
           "variables": [],
           "behaviors": [
             {
@@ -3822,16 +4008,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "Coin",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.1,
+                  "timeBetweenFrames": 0.0769,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "imgs\\coin.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "imgs/objects/coin/coin.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3844,11 +4030,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 33.5,
+                            "y": 1
+                          },
+                          {
+                            "x": 57.5,
+                            "y": 34
+                          },
+                          {
+                            "x": 31.5,
+                            "y": 57
+                          },
+                          {
+                            "x": 7.5,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "imgs\\coin.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "imgs/objects/coin/coin.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3861,11 +4066,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 33.5,
+                            "y": 1
+                          },
+                          {
+                            "x": 57.5,
+                            "y": 34
+                          },
+                          {
+                            "x": 31.5,
+                            "y": 57
+                          },
+                          {
+                            "x": 7.5,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "imgs\\coin2.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "imgs/objects/coin/coin.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3878,11 +4102,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 33.5,
+                            "y": 1
+                          },
+                          {
+                            "x": 57.5,
+                            "y": 34
+                          },
+                          {
+                            "x": 31.5,
+                            "y": 57
+                          },
+                          {
+                            "x": 7.5,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "imgs\\coin3.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "imgs/objects/coin/coin.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3895,11 +4138,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 33.5,
+                            "y": 1
+                          },
+                          {
+                            "x": 57.5,
+                            "y": 34
+                          },
+                          {
+                            "x": 31.5,
+                            "y": 57
+                          },
+                          {
+                            "x": 7.5,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "imgs\\coin4.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "imgs/objects/coin/coin2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3912,11 +4174,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 33.5,
+                            "y": 1
+                          },
+                          {
+                            "x": 57.5,
+                            "y": 34
+                          },
+                          {
+                            "x": 31.5,
+                            "y": 57
+                          },
+                          {
+                            "x": 7.5,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "imgs\\coin.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "imgs/objects/coin/coin3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3929,11 +4210,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 33.5,
+                            "y": 1
+                          },
+                          {
+                            "x": 57.5,
+                            "y": 34
+                          },
+                          {
+                            "x": 31.5,
+                            "y": 57
+                          },
+                          {
+                            "x": 7.5,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "imgs\\coin.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "imgs/objects/coin/coin4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3946,24 +4246,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "imgs\\coin.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 33.5,
+                            "y": 1
+                          },
+                          {
+                            "x": 57.5,
+                            "y": 34
+                          },
+                          {
+                            "x": 31.5,
+                            "y": 57
+                          },
+                          {
+                            "x": 7.5,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -4566,7 +4868,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -4589,8 +4891,8 @@
           "locked": false,
           "name": "TextButton_Continue",
           "width": 0,
-          "x": 582,
-          "y": 288,
+          "x": 576,
+          "y": 256,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -4619,8 +4921,8 @@
           "locked": false,
           "name": "Title",
           "width": 0,
-          "x": 582,
-          "y": 153,
+          "x": 576,
+          "y": 64,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -4634,8 +4936,8 @@
           "locked": false,
           "name": "TextButton_Menu",
           "width": 0,
-          "x": 472,
-          "y": 376,
+          "x": 512,
+          "y": 352,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -4649,8 +4951,8 @@
           "locked": false,
           "name": "TextButton_Quit",
           "width": 0,
-          "x": 621,
-          "y": 487,
+          "x": 608,
+          "y": 448,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -4676,7 +4978,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs/City3_edit2.png",
+                      "image": "imgs/background/City3_edit2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4980,137 +5282,6 @@
             }
           ],
           "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Posição de Botões",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreX"
-              },
-              "parameters": [
-                "TextButton_Continue",
-                "=",
-                "(SceneWindowWidth()/2.26)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreY"
-              },
-              "parameters": [
-                "TextButton_Continue",
-                "=",
-                "(SceneWindowHeight()/2.60)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Title",
-                "=",
-                "(SceneWindowWidth()/2.24)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreY"
-              },
-              "parameters": [
-                "Title",
-                "=",
-                "(SceneWindowHeight()/7)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreX"
-              },
-              "parameters": [
-                "TextButton_Menu",
-                "=",
-                "(SceneWindowWidth()/2.54)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreY"
-              },
-              "parameters": [
-                "TextButton_Menu",
-                "=",
-                "(SceneWindowHeight()/2)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreX"
-              },
-              "parameters": [
-                "TextButton_Quit",
-                "=",
-                "(SceneWindowWidth()/2.1)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreY"
-              },
-              "parameters": [
-                "TextButton_Quit",
-                "=",
-                "(SceneWindowHeight()/1.6)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
         }
       ],
       "layers": [
@@ -5156,15 +5327,279 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 1
+        "zoomFactor": 0.784
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 720,
+          "layer": "",
+          "locked": false,
+          "name": "background",
+          "width": 1345,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GameOver",
+          "width": 0,
+          "x": 416,
+          "y": 224,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TextButton_Quit",
+          "width": 0,
+          "x": 608,
+          "y": 512,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "TextButton_Menu",
+          "width": 82,
+          "x": 596,
+          "y": 416,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imgs/background/City3_edit2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "GameOver",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Fim de Jogo",
+          "font": "",
+          "characterSize": 80,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "TextButton_Menu",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Menu",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "TextButton_Quit",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Sair",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Botões",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TextButton_Menu",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TextButton_Quit",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
       "layers": [
         {
           "name": "",
