@@ -1267,6 +1267,24 @@
         "name": "imgs/background/City3_edit.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/delimiter/dead_line.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/delimiter/dead_line.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3002,7 +3020,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -3010,9 +3028,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": false,
+        "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.232
+        "zoomFactor": 0.082
       },
       "objectsGroups": [
         {
@@ -3457,6 +3475,66 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "game",
+          "locked": false,
+          "name": "DeadLine",
+          "width": 26304,
+          "x": -704,
+          "y": 736,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "game",
+          "locked": false,
+          "name": "DeadLine",
+          "width": 26336,
+          "x": -704,
+          "y": -256,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1024,
+          "layer": "game",
+          "locked": false,
+          "name": "DeadLine",
+          "width": 32,
+          "x": -736,
+          "y": -256,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1024,
+          "layer": "game",
+          "locked": false,
+          "name": "DeadLine",
+          "width": 32,
+          "x": 25600,
+          "y": -256,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3788,7 +3866,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imgs\\move_left.png",
+                      "image": "imgs/objects/delimiter/move_left.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4311,6 +4389,22 @@
               ]
             }
           ]
+        },
+        {
+          "height": 32,
+          "name": "DeadLine",
+          "tags": "",
+          "texture": "imgs/objects/delimiter/dead_line.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "extraBorder": 0,
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside"
+            }
+          ]
         }
       ],
       "events": [
@@ -4471,14 +4565,18 @@
             {
               "type": {
                 "inverted": false,
-                "value": "CentreCamera"
+                "value": "FixCamera"
               },
               "parameters": [
                 "",
                 "Player",
-                "no",
-                "\"game\"",
-                "0"
+                "0",
+                "0",
+                "0",
+                "",
+                "",
+                "",
+                ""
               ],
               "subInstructions": []
             },
@@ -4695,6 +4793,21 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "delimitador\n",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4726,6 +4839,16 @@
               },
               "parameters": [
                 "MoveLeft"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "DeadLine"
               ],
               "subInstructions": []
             }
