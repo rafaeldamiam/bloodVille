@@ -1285,6 +1285,24 @@
         "name": "imgs/objects/delimiter/dead_line.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/foreground/foreground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/foreground/foreground.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/foreground/foreground1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/foreground/foreground1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3030,7 +3048,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.178
+        "zoomFactor": 0.106
       },
       "objectsGroups": [
         {
@@ -3079,8 +3097,8 @@
           "locked": false,
           "name": "Player",
           "width": 70,
-          "x": 3136,
-          "y": 448,
+          "x": 96,
+          "y": 480,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -3315,12 +3333,12 @@
           "angle": 0,
           "customSize": true,
           "height": 1078,
-          "layer": "",
+          "layer": "background",
           "locked": false,
           "name": "Background",
-          "width": 2118,
-          "x": -192,
-          "y": -224,
+          "width": 5846,
+          "x": -1345,
+          "y": -407,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -3535,6 +3553,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1797,
+          "layer": "foreground",
+          "locked": false,
+          "name": "Foreground",
+          "width": 6245,
+          "x": -1582,
+          "y": -513,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3598,12 +3631,12 @@
           "behaviors": []
         },
         {
-          "height": 32,
+          "height": 1812,
           "name": "Foreground",
           "tags": "",
-          "texture": "",
+          "texture": "imgs/foreground/foreground1.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
+          "width": 4011,
           "variables": [],
           "behaviors": []
         },
@@ -4400,9 +4433,9 @@
           "variables": [],
           "behaviors": [
             {
-              "extraBorder": 0,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside"
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 0
             }
           ]
         }
@@ -4583,13 +4616,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "CameraX"
+                "value": "AddForceVers"
               },
               "parameters": [
-                "",
-                "=",
-                "player.X()*0.4",
-                "\"foreground\"",
+                "Background",
+                "Background",
+                "player.X()*0.25",
                 "0"
               ],
               "subInstructions": []
@@ -4597,14 +4629,13 @@
             {
               "type": {
                 "inverted": false,
-                "value": "CameraX"
+                "value": "AddForceVers"
               },
               "parameters": [
-                "",
-                "=",
-                "player.X()*0.25",
-                "\"background\"",
-                "0"
+                "Foreground",
+                "Foreground",
+                "player.X()*0.5",
+                ""
               ],
               "subInstructions": []
             }
