@@ -4006,8 +4006,8 @@
           "locked": false,
           "name": "Player",
           "width": 118,
-          "x": 1947,
-          "y": 417,
+          "x": 639,
+          "y": 389,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -4570,10 +4570,10 @@
           ],
           "behaviors": [
             {
-              "jumpSpeed": 700,
-              "maxFallingSpeed": 750,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "jumpSpeed": 700,
+              "maxFallingSpeed": 750,
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1200,
@@ -4588,6 +4588,54 @@
           ],
           "animations": [
             {
+              "name": "stop",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "imgs/player/parado.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "name": "walk",
               "useMultipleDirections": false,
               "directions": [
@@ -4596,7 +4644,7 @@
                   "timeBetweenFrames": 0.05,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_000.png",
                       "points": [],
                       "originPoint": {
@@ -4610,10 +4658,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_001.png",
                       "points": [],
                       "originPoint": {
@@ -4627,10 +4694,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_002.png",
                       "points": [],
                       "originPoint": {
@@ -4644,10 +4730,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_003.png",
                       "points": [],
                       "originPoint": {
@@ -4661,10 +4766,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_004.png",
                       "points": [],
                       "originPoint": {
@@ -4678,10 +4802,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_005.png",
                       "points": [],
                       "originPoint": {
@@ -4695,10 +4838,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_006.png",
                       "points": [],
                       "originPoint": {
@@ -4712,10 +4874,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_007.png",
                       "points": [],
                       "originPoint": {
@@ -4729,10 +4910,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_008.png",
                       "points": [],
                       "originPoint": {
@@ -4746,10 +4946,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_009.png",
                       "points": [],
                       "originPoint": {
@@ -4763,10 +4982,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_010.png",
                       "points": [],
                       "originPoint": {
@@ -4780,10 +5018,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_011.png",
                       "points": [],
                       "originPoint": {
@@ -4797,10 +5054,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_012.png",
                       "points": [],
                       "originPoint": {
@@ -4814,10 +5090,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_013.png",
                       "points": [],
                       "originPoint": {
@@ -4831,10 +5126,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_014.png",
                       "points": [],
                       "originPoint": {
@@ -4848,10 +5162,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_015.png",
                       "points": [],
                       "originPoint": {
@@ -4865,10 +5198,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_016.png",
                       "points": [],
                       "originPoint": {
@@ -4882,10 +5234,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_017.png",
                       "points": [],
                       "originPoint": {
@@ -4899,10 +5270,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_018.png",
                       "points": [],
                       "originPoint": {
@@ -4916,10 +5306,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_019.png",
                       "points": [],
                       "originPoint": {
@@ -4933,10 +5342,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_020.png",
                       "points": [],
                       "originPoint": {
@@ -4950,10 +5378,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_021.png",
                       "points": [],
                       "originPoint": {
@@ -4967,10 +5414,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_022.png",
                       "points": [],
                       "originPoint": {
@@ -4984,10 +5450,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_023.png",
                       "points": [],
                       "originPoint": {
@@ -5001,10 +5486,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_024.png",
                       "points": [],
                       "originPoint": {
@@ -5018,10 +5522,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_025.png",
                       "points": [],
                       "originPoint": {
@@ -5035,10 +5558,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_026.png",
                       "points": [],
                       "originPoint": {
@@ -5052,10 +5594,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_027.png",
                       "points": [],
                       "originPoint": {
@@ -5069,10 +5630,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_028.png",
                       "points": [],
                       "originPoint": {
@@ -5086,10 +5666,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_029.png",
                       "points": [],
                       "originPoint": {
@@ -5103,10 +5702,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_030.png",
                       "points": [],
                       "originPoint": {
@@ -5120,10 +5738,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_031.png",
                       "points": [],
                       "originPoint": {
@@ -5137,10 +5774,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_032.png",
                       "points": [],
                       "originPoint": {
@@ -5154,10 +5810,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_033.png",
                       "points": [],
                       "originPoint": {
@@ -5171,10 +5846,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_034.png",
                       "points": [],
                       "originPoint": {
@@ -5188,10 +5882,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_035.png",
                       "points": [],
                       "originPoint": {
@@ -5205,10 +5918,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_036.png",
                       "points": [],
                       "originPoint": {
@@ -5222,10 +5954,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_037.png",
                       "points": [],
                       "originPoint": {
@@ -5239,10 +5990,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_038.png",
                       "points": [],
                       "originPoint": {
@@ -5256,10 +6026,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_039.png",
                       "points": [],
                       "originPoint": {
@@ -5273,10 +6062,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_040.png",
                       "points": [],
                       "originPoint": {
@@ -5290,10 +6098,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_041.png",
                       "points": [],
                       "originPoint": {
@@ -5307,10 +6134,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_042.png",
                       "points": [],
                       "originPoint": {
@@ -5324,10 +6170,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_043.png",
                       "points": [],
                       "originPoint": {
@@ -5341,10 +6206,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_044.png",
                       "points": [],
                       "originPoint": {
@@ -5358,10 +6242,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_045.png",
                       "points": [],
                       "originPoint": {
@@ -5375,10 +6278,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_046.png",
                       "points": [],
                       "originPoint": {
@@ -5392,10 +6314,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_047.png",
                       "points": [],
                       "originPoint": {
@@ -5409,10 +6350,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_048.png",
                       "points": [],
                       "originPoint": {
@@ -5426,10 +6386,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/andar/anda_049.png",
                       "points": [],
                       "originPoint": {
@@ -5443,7 +6422,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -5455,10 +6453,10 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.1,
+                  "timeBetweenFrames": 0.05,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_000.png",
                       "points": [],
                       "originPoint": {
@@ -5472,10 +6470,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_001.png",
                       "points": [],
                       "originPoint": {
@@ -5489,10 +6506,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_002.png",
                       "points": [],
                       "originPoint": {
@@ -5506,10 +6542,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_003.png",
                       "points": [],
                       "originPoint": {
@@ -5523,10 +6578,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_004.png",
                       "points": [],
                       "originPoint": {
@@ -5540,10 +6614,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_005.png",
                       "points": [],
                       "originPoint": {
@@ -5557,10 +6650,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_006.png",
                       "points": [],
                       "originPoint": {
@@ -5574,10 +6686,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_007.png",
                       "points": [],
                       "originPoint": {
@@ -5591,10 +6722,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_008.png",
                       "points": [],
                       "originPoint": {
@@ -5608,10 +6758,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_009.png",
                       "points": [],
                       "originPoint": {
@@ -5625,10 +6794,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_010.png",
                       "points": [],
                       "originPoint": {
@@ -5642,10 +6830,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_011.png",
                       "points": [],
                       "originPoint": {
@@ -5659,10 +6866,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_012.png",
                       "points": [],
                       "originPoint": {
@@ -5676,10 +6902,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_013.png",
                       "points": [],
                       "originPoint": {
@@ -5693,10 +6938,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_014.png",
                       "points": [],
                       "originPoint": {
@@ -5710,10 +6974,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_015.png",
                       "points": [],
                       "originPoint": {
@@ -5727,10 +7010,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_016.png",
                       "points": [],
                       "originPoint": {
@@ -5744,10 +7046,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_017.png",
                       "points": [],
                       "originPoint": {
@@ -5761,10 +7082,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_018.png",
                       "points": [],
                       "originPoint": {
@@ -5778,10 +7118,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_019.png",
                       "points": [],
                       "originPoint": {
@@ -5795,10 +7154,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_020.png",
                       "points": [],
                       "originPoint": {
@@ -5812,10 +7190,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_021.png",
                       "points": [],
                       "originPoint": {
@@ -5829,10 +7226,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_022.png",
                       "points": [],
                       "originPoint": {
@@ -5846,10 +7262,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_023.png",
                       "points": [],
                       "originPoint": {
@@ -5863,10 +7298,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_024.png",
                       "points": [],
                       "originPoint": {
@@ -5880,10 +7334,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_025.png",
                       "points": [],
                       "originPoint": {
@@ -5897,10 +7370,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_026.png",
                       "points": [],
                       "originPoint": {
@@ -5914,10 +7406,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_027.png",
                       "points": [],
                       "originPoint": {
@@ -5931,10 +7442,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_028.png",
                       "points": [],
                       "originPoint": {
@@ -5948,10 +7478,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_029.png",
                       "points": [],
                       "originPoint": {
@@ -5965,10 +7514,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_030.png",
                       "points": [],
                       "originPoint": {
@@ -5982,10 +7550,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_031.png",
                       "points": [],
                       "originPoint": {
@@ -5999,10 +7586,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_032.png",
                       "points": [],
                       "originPoint": {
@@ -6016,10 +7622,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_033.png",
                       "points": [],
                       "originPoint": {
@@ -6033,10 +7658,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_034.png",
                       "points": [],
                       "originPoint": {
@@ -6050,10 +7694,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_035.png",
                       "points": [],
                       "originPoint": {
@@ -6067,10 +7730,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_036.png",
                       "points": [],
                       "originPoint": {
@@ -6084,10 +7766,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_037.png",
                       "points": [],
                       "originPoint": {
@@ -6101,10 +7802,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_038.png",
                       "points": [],
                       "originPoint": {
@@ -6118,10 +7838,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_039.png",
                       "points": [],
                       "originPoint": {
@@ -6135,10 +7874,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_040.png",
                       "points": [],
                       "originPoint": {
@@ -6152,10 +7910,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_041.png",
                       "points": [],
                       "originPoint": {
@@ -6169,10 +7946,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_042.png",
                       "points": [],
                       "originPoint": {
@@ -6186,10 +7982,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_043.png",
                       "points": [],
                       "originPoint": {
@@ -6203,10 +8018,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_044.png",
                       "points": [],
                       "originPoint": {
@@ -6220,10 +8054,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_045.png",
                       "points": [],
                       "originPoint": {
@@ -6237,10 +8090,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_046.png",
                       "points": [],
                       "originPoint": {
@@ -6254,10 +8126,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_047.png",
                       "points": [],
                       "originPoint": {
@@ -6271,10 +8162,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_048.png",
                       "points": [],
                       "originPoint": {
@@ -6288,10 +8198,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_049.png",
                       "points": [],
                       "originPoint": {
@@ -6305,7 +8234,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 865,
+                            "y": 80
+                          },
+                          {
+                            "x": 275,
+                            "y": 70
+                          },
+                          {
+                            "x": 285,
+                            "y": 1710
+                          },
+                          {
+                            "x": 835,
+                            "y": 1700
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6387,11 +8335,11 @@
           ],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1000,
               "deceleration": 100,
               "gravity": 100,
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "canGrabPlatforms": true,
               "ignoreDefaultControls": true,
               "jumpSpeed": 600,
@@ -9383,7 +11331,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Stoped/Walking/falling",
+          "comment": "Animation player",
           "comment2": ""
         },
         {
@@ -9394,10 +11342,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Arret"
+                "value": "PlatformBehavior::IsJumping"
               },
               "parameters": [
-                "Player"
+                "Player",
+                "PlatformerObject"
               ],
               "subInstructions": []
             }
@@ -9406,11 +11355,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SetAnimationName"
+                "value": "ChangeAnimation"
               },
               "parameters": [
                 "Player",
-                "\"stoped\""
+                "=",
+                "2"
               ],
               "subInstructions": []
             }
@@ -9434,52 +11384,75 @@
               "subInstructions": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Player",
-                "\"walk\""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
-              "type": {
-                "inverted": false,
-                "value": "PlatformBehavior::IsJumping"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject"
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Player",
-                "\"jump\""
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "events": []
             }
-          ],
-          "events": []
+          ]
         },
         {
           "disabled": false,
