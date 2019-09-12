@@ -4001,13 +4001,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 171,
+          "height": 160,
           "layer": "game",
           "locked": false,
           "name": "Player",
-          "width": 118,
-          "x": 639,
-          "y": 389,
+          "width": 96,
+          "x": 192,
+          "y": 448,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -4051,8 +4051,8 @@
           "locked": false,
           "name": "Enemy1",
           "width": 51,
-          "x": 352,
-          "y": 512,
+          "x": 3095,
+          "y": 556,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -4096,8 +4096,8 @@
           "locked": false,
           "name": "Enemy1",
           "width": 51,
-          "x": 480,
-          "y": 512,
+          "x": 3223,
+          "y": 556,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -4111,8 +4111,8 @@
           "locked": false,
           "name": "Enemy1",
           "width": 51,
-          "x": 416,
-          "y": 512,
+          "x": 3159,
+          "y": 556,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -4126,8 +4126,8 @@
           "locked": false,
           "name": "Enemy2",
           "width": 32,
-          "x": 2720,
-          "y": 160,
+          "x": 3016,
+          "y": 190,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -4321,8 +4321,8 @@
           "locked": false,
           "name": "Coin",
           "width": 0,
-          "x": 192,
-          "y": 512,
+          "x": 992,
+          "y": 288,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -4345,12 +4345,12 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 128,
           "layer": "game",
           "locked": false,
           "name": "PisoMov",
-          "width": 0,
+          "width": 512,
           "x": 4288,
           "y": 416,
           "zOrder": 38,
@@ -4426,7 +4426,7 @@
           "locked": false,
           "name": "PisoMov",
           "width": 0,
-          "x": 5184,
+          "x": 5376,
           "y": 544,
           "zOrder": 38,
           "numberProperties": [],
@@ -4441,7 +4441,7 @@
           "locked": false,
           "name": "PisoMov",
           "width": 0,
-          "x": 4736,
+          "x": 4960,
           "y": 480,
           "zOrder": 38,
           "numberProperties": [],
@@ -4456,7 +4456,7 @@
           "locked": false,
           "name": "Caixa",
           "width": 2304,
-          "x": 5600,
+          "x": 5856,
           "y": 608,
           "zOrder": 35,
           "numberProperties": [],
@@ -4471,9 +4471,54 @@
           "locked": false,
           "name": "PisoFix",
           "width": 2304,
-          "x": 5600,
+          "x": 5856,
           "y": 608,
           "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 27,
+          "layer": "game",
+          "locked": false,
+          "name": "MoveRight",
+          "width": 29,
+          "x": 4288,
+          "y": 384,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "game",
+          "locked": false,
+          "name": "MoveLeft",
+          "width": 30,
+          "x": 4768,
+          "y": 384,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "game",
+          "locked": false,
+          "name": "Enemy2",
+          "width": 32,
+          "x": 4704,
+          "y": 384,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4641,7 +4686,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.05,
+                  "timeBetweenFrames": 0.02555,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -6453,440 +6498,8 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.05,
+                  "timeBetweenFrames": 0.03,
                   "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imgs/player/pular/pula_000.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 865,
-                            "y": 80
-                          },
-                          {
-                            "x": 275,
-                            "y": 70
-                          },
-                          {
-                            "x": 285,
-                            "y": 1710
-                          },
-                          {
-                            "x": 835,
-                            "y": 1700
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imgs/player/pular/pula_001.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 865,
-                            "y": 80
-                          },
-                          {
-                            "x": 275,
-                            "y": 70
-                          },
-                          {
-                            "x": 285,
-                            "y": 1710
-                          },
-                          {
-                            "x": 835,
-                            "y": 1700
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imgs/player/pular/pula_002.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 865,
-                            "y": 80
-                          },
-                          {
-                            "x": 275,
-                            "y": 70
-                          },
-                          {
-                            "x": 285,
-                            "y": 1710
-                          },
-                          {
-                            "x": 835,
-                            "y": 1700
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imgs/player/pular/pula_003.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 865,
-                            "y": 80
-                          },
-                          {
-                            "x": 275,
-                            "y": 70
-                          },
-                          {
-                            "x": 285,
-                            "y": 1710
-                          },
-                          {
-                            "x": 835,
-                            "y": 1700
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imgs/player/pular/pula_004.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 865,
-                            "y": 80
-                          },
-                          {
-                            "x": 275,
-                            "y": 70
-                          },
-                          {
-                            "x": 285,
-                            "y": 1710
-                          },
-                          {
-                            "x": 835,
-                            "y": 1700
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imgs/player/pular/pula_005.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 865,
-                            "y": 80
-                          },
-                          {
-                            "x": 275,
-                            "y": 70
-                          },
-                          {
-                            "x": 285,
-                            "y": 1710
-                          },
-                          {
-                            "x": 835,
-                            "y": 1700
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imgs/player/pular/pula_006.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 865,
-                            "y": 80
-                          },
-                          {
-                            "x": 275,
-                            "y": 70
-                          },
-                          {
-                            "x": 285,
-                            "y": 1710
-                          },
-                          {
-                            "x": 835,
-                            "y": 1700
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imgs/player/pular/pula_007.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 865,
-                            "y": 80
-                          },
-                          {
-                            "x": 275,
-                            "y": 70
-                          },
-                          {
-                            "x": 285,
-                            "y": 1710
-                          },
-                          {
-                            "x": 835,
-                            "y": 1700
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imgs/player/pular/pula_008.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 865,
-                            "y": 80
-                          },
-                          {
-                            "x": 275,
-                            "y": 70
-                          },
-                          {
-                            "x": 285,
-                            "y": 1710
-                          },
-                          {
-                            "x": 835,
-                            "y": 1700
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imgs/player/pular/pula_009.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 865,
-                            "y": 80
-                          },
-                          {
-                            "x": 275,
-                            "y": 70
-                          },
-                          {
-                            "x": 285,
-                            "y": 1710
-                          },
-                          {
-                            "x": 835,
-                            "y": 1700
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imgs/player/pular/pula_010.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 865,
-                            "y": 80
-                          },
-                          {
-                            "x": 275,
-                            "y": 70
-                          },
-                          {
-                            "x": 285,
-                            "y": 1710
-                          },
-                          {
-                            "x": 835,
-                            "y": 1700
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "imgs/player/pular/pula_011.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 865,
-                            "y": 80
-                          },
-                          {
-                            "x": 275,
-                            "y": 70
-                          },
-                          {
-                            "x": 285,
-                            "y": 1710
-                          },
-                          {
-                            "x": 835,
-                            "y": 1700
-                          }
-                        ]
-                      ]
-                    },
                     {
                       "hasCustomCollisionMask": true,
                       "image": "imgs/player/pular/pula_012.png",
@@ -11365,7 +10978,41 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
