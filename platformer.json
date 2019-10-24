@@ -12,23 +12,47 @@
     "linuxExecutableFilename": "",
     "macExecutableFilename": "",
     "orientation": "landscape",
-    "packageName": "com.example.platformer",
+    "packageName": "con.bloodville.platformer",
     "projectFile": "/home/doaryo/Área de Trabalho/bloodVille/platformer.json",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
-    "version": "1.0.0",
+    "version": "0.1.20",
     "winExecutableFilename": "",
     "winExecutableIconFile": "",
-    "name": "bloodville",
-    "author": "",
+    "name": "BloodVille",
+    "author": "BloodVille Corp.",
     "windowWidth": 1280,
-    "windowHeight": 720,
+    "windowHeight": 785,
     "latestCompilationDirectory": "",
-    "maxFPS": 60,
-    "minFPS": 20,
+    "maxFPS": 120,
+    "minFPS": 30,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "imgs/icons/logo_transparent.png",
+      "android-icon-192": "imgs/icons/logo_transparent.png",
+      "android-icon-36": "imgs/icons/logo_transparent.png",
+      "android-icon-48": "imgs/icons/logo_transparent.png",
+      "android-icon-72": "imgs/icons/logo_transparent.png",
+      "android-icon-96": "imgs/icons/logo_transparent.png",
+      "desktop-icon-512": "imgs/icons/logo_transparent.png",
+      "ios-icon-100": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "imgs/icons/logo_transparent.png",
+      "ios-icon-167": "imgs/icons/logo_transparent.png",
+      "ios-icon-180": "imgs/icons/logo_transparent.png",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": ""
+    },
     "loadingScreen": {
       "showGDevelopSplash": true
     },
@@ -2239,6 +2263,60 @@
         "name": "imgs/background/azur_lane.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/background/background.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/background/background.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/foreground/foreground(gimp).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/foreground/foreground(gimp).jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/foreground/foreground(gimp).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/foreground/foreground(gimp).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/enemy/enemy1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/enemy/enemy1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/objects/enemy/enemy2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/objects/enemy/enemy2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imgs/icons/logo_transparent.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imgs/icons/logo_transparent.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2269,7 +2347,7 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 70,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
         "zoomFactor": 0.5066
       },
@@ -2329,8 +2407,8 @@
           "locked": false,
           "name": "Cyborg",
           "width": 123,
-          "x": 551,
-          "y": 446,
+          "x": 552,
+          "y": 461,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -2354,14 +2432,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 720,
+          "height": 785,
           "layer": "",
           "locked": false,
           "name": "Back",
-          "width": 1345,
+          "width": 1280,
           "x": 0,
           "y": 0,
-          "zOrder": -2,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2891,12 +2969,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 720,
+          "height": 785,
           "layer": "",
           "locked": false,
           "name": "Image",
-          "width": 1345,
-          "x": 0,
+          "width": 1280,
+          "x": -1,
           "y": 0,
           "zOrder": 0,
           "numberProperties": [],
@@ -3367,11 +3445,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 720,
+          "height": 785,
           "layer": "",
           "locked": false,
           "name": "Backgroud",
-          "width": 1345,
+          "width": 1280,
           "x": 0,
           "y": 0,
           "zOrder": 0,
@@ -3974,7 +4052,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -3982,9 +4060,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.394
+        "zoomFactor": 0.154
       },
       "objectsGroups": [
         {
@@ -4058,13 +4136,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 64,
           "layer": "game",
           "locked": false,
           "name": "Enemy1",
-          "width": 51,
-          "x": 3095,
-          "y": 556,
+          "width": 64,
+          "x": 3008,
+          "y": 512,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -4103,13 +4181,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 64,
           "layer": "game",
           "locked": false,
           "name": "Enemy1",
-          "width": 51,
-          "x": 3223,
-          "y": 556,
+          "width": 64,
+          "x": 3200,
+          "y": 512,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -4118,29 +4196,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 64,
           "layer": "game",
           "locked": false,
           "name": "Enemy1",
-          "width": 51,
-          "x": 3159,
-          "y": 556,
+          "width": 64,
+          "x": 3104,
+          "y": 512,
           "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "game",
-          "locked": false,
-          "name": "Enemy2",
-          "width": 32,
-          "x": 3016,
-          "y": 190,
-          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4201,21 +4264,6 @@
           "x": 1096,
           "y": 10,
           "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "game",
-          "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 2848,
-          "y": 96,
-          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4321,21 +4369,6 @@
           "x": 2144,
           "y": 480,
           "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "game",
-          "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 992,
-          "y": 288,
-          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4521,21 +4554,6 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "game",
-          "locked": false,
-          "name": "Enemy2",
-          "width": 32,
-          "x": 4672,
-          "y": 352,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 90,
           "customSize": true,
           "height": 128,
@@ -4583,13 +4601,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 64,
           "layer": "game",
           "locked": false,
           "name": "Enemy1",
-          "width": 51,
-          "x": 426,
-          "y": 604,
+          "width": 64,
+          "x": 1280,
+          "y": 512,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -4658,21 +4676,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 32,
-          "layer": "game",
-          "locked": false,
-          "name": "Enemy2",
-          "width": 32,
-          "x": 4672,
-          "y": 352,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 23,
           "layer": "game",
           "locked": false,
@@ -4688,21 +4691,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 32,
-          "layer": "game",
-          "locked": false,
-          "name": "Enemy2",
-          "width": 32,
-          "x": 6497,
-          "y": 477,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 27,
           "layer": "game",
           "locked": false,
@@ -4711,21 +4699,6 @@
           "x": 6400,
           "y": 480,
           "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 160,
-          "layer": "game",
-          "locked": false,
-          "name": "Player",
-          "width": 96,
-          "x": 9646,
-          "y": 406,
-          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4756,36 +4729,6 @@
           "x": 8992,
           "y": 256,
           "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "game",
-          "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 9216,
-          "y": 128,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "game",
-          "locked": false,
-          "name": "Enemy2",
-          "width": 32,
-          "x": 9376,
-          "y": 192,
-          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4898,13 +4841,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 64,
           "layer": "game",
           "locked": false,
           "name": "Enemy1",
-          "width": 51,
-          "x": 9929,
-          "y": 592,
+          "width": 64,
+          "x": 10080,
+          "y": 512,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -5008,8 +4951,8 @@
           "locked": false,
           "name": "Background",
           "width": 0,
-          "x": -384,
-          "y": -224,
+          "x": 0,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -5048,28 +4991,58 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 64,
           "layer": "game",
           "locked": false,
           "name": "Enemy1",
-          "width": 51,
-          "x": 12864,
-          "y": 576,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 46,
-          "layer": "game",
-          "locked": false,
-          "name": "Enemy1",
-          "width": 51,
+          "width": 64,
           "x": 12928,
-          "y": 576,
+          "y": 512,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "foreground",
+          "locked": false,
+          "name": "Foreground",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "game",
+          "locked": false,
+          "name": "Player",
+          "width": 96,
+          "x": 128,
+          "y": 416,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "game",
+          "locked": false,
+          "name": "Enemy1",
+          "width": 64,
+          "x": 12736,
+          "y": 512,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -5078,14 +5051,74 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 64,
           "layer": "game",
           "locked": false,
           "name": "Enemy1",
-          "width": 51,
-          "x": 12992,
-          "y": 576,
+          "width": 64,
+          "x": 12832,
+          "y": 512,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "game",
+          "locked": false,
+          "name": "Enemy2",
+          "width": 45,
+          "x": 2997,
+          "y": 163,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "game",
+          "locked": false,
+          "name": "Enemy2",
+          "width": 45,
+          "x": 4707.09,
+          "y": 337.662,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "game",
+          "locked": false,
+          "name": "Enemy2",
+          "width": 45,
+          "x": 6559.69,
+          "y": 447.489,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "game",
+          "locked": false,
+          "name": "Enemy2",
+          "width": 45,
+          "x": 9357,
+          "y": 190,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5142,12 +5175,12 @@
           ]
         },
         {
-          "height": 1080,
+          "height": 785,
           "name": "Background",
           "tags": "",
-          "texture": "imgs/background/azur_lane.jpg",
+          "texture": "imgs/background/background.jpg",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 1920,
+          "width": 1280,
           "variables": [],
           "behaviors": [
             {
@@ -5160,12 +5193,12 @@
           ]
         },
         {
-          "height": 720,
+          "height": 785,
           "name": "Foreground",
           "tags": "",
-          "texture": "imgs/foreground/foreground1.png",
+          "texture": "imgs/foreground/foreground(gimp).png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 1080,
+          "width": 1280,
           "variables": [],
           "behaviors": []
         },
@@ -5185,6 +5218,10 @@
             },
             {
               "name": "JumpCount",
+              "value": "0"
+            },
+            {
+              "name": "direction",
               "value": "0"
             }
           ],
@@ -8488,40 +8525,21 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
-                      "image": "imgs/objects/enemy/NewObject2-1.png",
+                      "hasCustomCollisionMask": false,
+                      "image": "imgs/objects/enemy/enemy2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 62,
-                        "y": 62
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 3,
-                        "y": 1
+                        "x": 0,
+                        "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 63,
-                            "y": 0
-                          },
-                          {
-                            "x": 63,
-                            "y": 63
-                          },
-                          {
-                            "x": 0,
-                            "y": 63
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -8568,8 +8586,8 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "imgs/objects/enemy/NewObject2-1-3.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "imgs/objects/enemy/enemy2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8582,7 +8600,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5.5,
+                            "y": 12.6667
+                          },
+                          {
+                            "x": 24.1667,
+                            "y": 4
+                          },
+                          {
+                            "x": 25.1667,
+                            "y": 24.3333
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -9787,11 +9824,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 720,
+          "height": 785,
           "layer": "",
           "locked": false,
           "name": "Background",
-          "width": 1345,
+          "width": 1280,
           "x": 0,
           "y": 0,
           "zOrder": 0,
@@ -10223,11 +10260,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 720,
+          "height": 785,
           "layer": "",
           "locked": false,
           "name": "background",
-          "width": 1345,
+          "width": 1280,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -10243,8 +10280,8 @@
           "locked": false,
           "name": "GameOver",
           "width": 0,
-          "x": 416,
-          "y": 224,
+          "x": 405,
+          "y": 251,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -10258,8 +10295,8 @@
           "locked": false,
           "name": "TextButton_Quit",
           "width": 0,
-          "x": 608,
-          "y": 512,
+          "x": 589,
+          "y": 564,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -10273,8 +10310,8 @@
           "locked": false,
           "name": "TextButton_Menu",
           "width": 82,
-          "x": 596,
-          "y": 416,
+          "x": 579,
+          "y": 499,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -10673,7 +10710,7 @@
               },
               "parameters": [
                 "Enemy",
-                "yes"
+                "no"
               ],
               "subInstructions": []
             }
@@ -10718,7 +10755,7 @@
               },
               "parameters": [
                 "Enemy",
-                ""
+                "yes"
               ],
               "subInstructions": []
             }
@@ -10889,7 +10926,7 @@
                       "parameters": [
                         "Player",
                         ">=",
-                        "Enemy.Y()-PlayerHitBox.Height()+Enemy.Height()/2"
+                        "Enemy.Y()-Player.Height()+Enemy.Height()/2"
                       ],
                       "subInstructions": []
                     }
@@ -11567,6 +11604,72 @@
             }
           ],
           "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::IsMoving"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsMoving"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,
@@ -11575,12 +11678,23 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "PlatformBehavior::IsMoving"
+                    "inverted": false,
+                    "value": "KeyPressed"
                   },
                   "parameters": [
-                    "Player",
-                    "PlatformerObject"
+                    "",
+                    "Right"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "d"
                   ],
                   "subInstructions": []
                 }
@@ -11589,12 +11703,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ChangeAnimation"
+                    "value": "FlipX"
                   },
                   "parameters": [
                     "Player",
-                    "=",
-                    "0"
+                    "no"
                   ],
                   "subInstructions": []
                 }
@@ -11609,11 +11722,22 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlatformBehavior::IsMoving"
+                    "value": "KeyPressed"
                   },
                   "parameters": [
-                    "Player",
-                    "PlatformerObject"
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "a"
                   ],
                   "subInstructions": []
                 }
@@ -11622,104 +11746,16 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ChangeAnimation"
+                    "value": "FlipX"
                   },
                   "parameters": [
                     "Player",
-                    "=",
-                    "1"
+                    "yes"
                   ],
                   "subInstructions": []
                 }
               ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Right"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "d"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "FlipX"
-                      },
-                      "parameters": [
-                        "Player",
-                        "no"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Left"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "a"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "FlipX"
-                      },
-                      "parameters": [
-                        "Player",
-                        "yes"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
+              "events": []
             }
           ]
         },
